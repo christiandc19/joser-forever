@@ -1,17 +1,17 @@
 import React from 'react'
 
 import Navbar from '../components/navbar/Navbar'
-import Recovery from '../components/recovery/Recovery'
 import Footer from '../components/footer/Footer'
+import Mission from '../components/mission/Mission'
 
-const RecoveryPage = () => {
+const MissionPage = () => {
     return (
         <>
            <Navbar /> 
-           <Recovery />
+           <Mission />
            <Footer />
         </>
     )
 }
 
-export default RecoveryPage
+export default MissionPage

@@ -19,7 +19,9 @@ const Navbar = () => {
 
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
                     <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/recovery'>Recovery</Link> </li>
+                    <li><Link to='/treatment'>Treatment</Link> </li>
+                    <li><Link to='/mission'>Mission</Link> </li>
+                    <li><Link to='/about-us'>About Us</Link> </li>
                     <li><Link to='/cloud'>Cloud</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>
                     {/* <button><a>+1 310 999 9999</a></button> */}
