@@ -33,13 +33,13 @@
 }
 
 .hero h1 {
-    color: #FFC300;
+    color: #f04e00;
     font-size: 5rem;
     font-family: 'Poppins', sans-serif;
 }
 
 .hero h2 {
-    color: #f8f8f8;
+    color: #ffd135;
     font-size: 2rem;
     margin-top: -1.5rem;
 }
@@ -48,9 +48,6 @@
     color: #f8f8f8;
 }
 
-.hero .blue {
-    color: var(--primary-color);
-}
 
 @media screen and (max-width:940px) {
    .hero .content {
