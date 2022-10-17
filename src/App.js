@@ -1,10 +1,10 @@
 import React from 'react'
-import Data from './components/data/Data';
 import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
-import Cloud from './components/cloud/Cloud'
+import Insurance from './components/insurance/Insurance'
 import Footer from './components/footer/Footer';
 import Services from './components/services/Services';
+import Testimonials from './components/testimonials/Testimonials';
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
-      <Data />
-      <Cloud />
+      <Testimonials />
+      <Insurance />
       <Footer />
     </>
   );
