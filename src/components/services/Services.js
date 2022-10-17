@@ -3,16 +3,16 @@ import './ServicesStyles.css'
 import './ServicesCardsStyles.css'
 import Fade from 'react-reveal/Fade';
 import ServicesCards from './ServicesCards';
-import Services1 from '../../assets/services1.png'
-import Services2 from '../../assets/services2.png'
-import Services3 from '../../assets/services3.png'
+import Services1 from '../../assets/mental-illness.png'
+import Services2 from '../../assets/substance-use.png'
+import Services3 from '../../assets/addiction-treatment.png'
+import Services4 from '../../assets/employment-assistance.png'
 import ThirdColumnImage  from '../../assets/services1.png'
 
 const Services = () => {
   return (
     <>
     <div className='services'>
-
         <div className="container">
             <Fade top>
             <div className="content">
@@ -21,13 +21,9 @@ const Services = () => {
             </div>
             </Fade>
         </div>
-
-        <div className='right-image'></div>
     </div>
 
-
 {/* ---------------------------------------------- START of CARDS -------------------------------------------------*/}
-
 
 <div className='main'>
     <ServicesCards
@@ -45,14 +41,14 @@ const Services = () => {
 <ServicesCards
     Image = { Services3 }
     CardName="Addiction Treatment"
-    Description="Lorem Ipsum dolor sit amet pretium consecAddiction Treatment​teru adipiscing elit. Lorem consectetur adipescing elit."
+    Description="Lorem Ipsum dolor sit amet pretium consecteru adipiscing elit. Lorem consectetur adipescing elit."
     />
 
 
 <ServicesCards
-    Image = { Services1 }
+    Image = { Services4 }
     CardName="Employment Assistance"
-    Description="Lorem Ipsum dolor sit amet pretium consecAddiction Treatment​teru adipiscing elit. Lorem consectetur adipescing elit."
+    Description="Lorem Ipsum dolor sit amet pretium consecteru adipiscing elit. Lorem consectetur adipescing elit."
     />
     </div>
 

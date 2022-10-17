@@ -33,12 +33,20 @@
         left: 0;
         width: 100%;
         padding: 1rem;
-        background: rgba(255, 255, 255, .7);
+        /* background: rgba(255, 255, 255, .7); */
         margin-top: -3rem;
     }
 
     .testimonials {
         height: 50vh;
+    }
+
+    .testimonials h2 {
+        font-size: 25px;
+    }
+
+    .testimonials p {
+        font-size: 15px;
     }
 }
 

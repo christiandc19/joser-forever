@@ -5,6 +5,7 @@
     background: rgba(0, 0, 0, .3);
 }
 
+
 .insurance:before {
     content: '';
     position: absolute;
@@ -32,8 +33,17 @@
 }
 
 @media screen and (max-width: 940px) {
+
+    .insurance {
+        height: 50vh;
+    }
+
     .insurance .content {
         left: 0;
         width: 100%;
+    }
+
+    .insurance h2 {
+        font-size: 25px;
     }
 }
