@@ -27,24 +27,22 @@
 
 .third-section {
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 5rem;
+    width: 100vw;
+
 }
 
 .quote {
-    width: 50%;    
+    width: 100%;
+    text-align: center;
+    padding: 8rem 10rem;
 }
 
-
-.third-section {
-    width: 50%;
-}
 
 .third-section-image img {
-    border-top-left-radius: 120px 120px;
+    border-radius: 2rem;
     width: 100%;
+    padding: 5rem 10rem;
 }
 
 /* End of Third Section */

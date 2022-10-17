@@ -12,6 +12,7 @@ const Services = () => {
   return (
     <>
     <div className='services'>
+
         <div className="container">
             <Fade top>
             <div className="content">
@@ -60,7 +61,7 @@ const Services = () => {
 
 
 {/* ---------------------------------------------- THIRD SECTION - SERVICES -------------------------------------------------*/}
-
+<hr className='container'/>
 
 <div className='services-third'>
         <div className="container">
@@ -73,11 +74,8 @@ const Services = () => {
         </div>
 </div>
 
-
-<hr className='container'/>
-
 <div className='third-section'>
-     <div className='quote'>
+    <div className='quote'>
         <Fade left>
                 <blockquote>
                     <p>
@@ -91,8 +89,11 @@ const Services = () => {
     <div className='third-section-image'>
                 <img src={ ThirdColumnImage } alt="" />
     </div>
+
 </div>
 
+
+{/* ---------------------------------------------- END of THIRD SECTION - SERVICES -------------------------------------------------*/}
 
 
   </>

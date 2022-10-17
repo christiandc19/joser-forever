@@ -22,7 +22,7 @@ const Navbar = () => {
                     <li><Link to='/recovery'>Recovery</Link> </li>
                     <li><Link to='/cloud'>Cloud</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>
-                    <button><a>+1 310 999 9999</a></button>
+                    {/* <button><a>+1 310 999 9999</a></button> */}
                 </ul>
                 <div className="hamburger" onClick={handleNav}>
                     {!nav ? (<FaBars className='icon' />) : (<FaTimes className='icon' />)}
