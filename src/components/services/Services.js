@@ -86,12 +86,12 @@ const Services = () => {
         </Fade>
     </div>
 
-    <div className='third-section-image'>
+        <Fade right>
+            <div className='third-section-image'>
                 <img src={ ThirdColumnImage } alt="" />
-    </div>
-
+            </div>
+        </Fade>
 </div>
-
 
 {/* ---------------------------------------------- END of THIRD SECTION - SERVICES -------------------------------------------------*/}
 

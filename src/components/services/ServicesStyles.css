@@ -56,10 +56,22 @@
     margin-left: 1rem;
    } 
 
-   .right-image {
+   .third-section-image img {
+    display: none;
+}
+
+.third-section {
+    flex-wrap: wrap;
+}
+
+ .third-section .quote {
     width: 100%;
-    /* height: 50vh; */
-    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.services .content {
+margin-top: 2rem;
 }
 
 }
