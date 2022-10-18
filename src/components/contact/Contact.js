@@ -1,4 +1,5 @@
 import React, {useRef} from "react";
+import Fade from 'react-reveal/Fade';
 import './ContactStyles.css';
 import emailjs from 'emailjs-com'
 
@@ -30,7 +31,26 @@ const Contact = () => {
 
     return (
       <>
+
+<div className='contact-hero'>
+       <div className="container">
+            <div className="content">
+            <Fade top>
+                    <h1><span>Contact </span> Us</h1>
+            </Fade>
+            </div>
+     </div>
+</div>
+
+
+
+
+
 <div className='contact'>
+          <div className="map">
+                <iframe width="700" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=1800%20Vine%20Street%20Los%20Angle&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          </div>
+
       <div className="container contact-container">
           <form ref={form} onSubmit={sendEmail}>
             <h1>SEND A MESSAGE</h1>
