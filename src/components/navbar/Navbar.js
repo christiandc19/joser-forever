@@ -12,9 +12,11 @@ const Navbar = () => {
     return (
         <div name='top' className='navbar'>
             <div className="container">
+                
                 <div className="logo">
+                    <Link to='/'>
                     <img src={logo} className="App-logo" alt="logo" />
-
+                    </Link>
                 </div>
 
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
