@@ -12,14 +12,14 @@ import InsurancePage from './routes/InsurancePage'
 import ContactPage from './routes/ContactPage'
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={window.location.pathname || ''} >
     <Routes>
-      <Route path='/' element={<App />} />
-      <Route path='/treatment' element={<TreatmentPage />} />
-      <Route path='/mission' element={<MissionPage />} />
-      <Route path='/about-us' element={<AboutPage />} />
-      <Route path='/insurance' element={<InsurancePage />} />
-      <Route path='/contact' element={<ContactPage />} />
+      <Route exact path='/' element={<App />} />
+      <Route exact path='/treatment' element={<TreatmentPage />} />
+      <Route exact path='/mission' element={<MissionPage />} />
+      <Route exact path='/about-us' element={<AboutPage />} />
+      <Route exact path='/insurance' element={<InsurancePage />} />
+      <Route exact path='/contact' element={<ContactPage />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')
