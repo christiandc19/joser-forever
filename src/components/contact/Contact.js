@@ -18,7 +18,7 @@ const Contact = () => {
 
 
                   //    Service Id        Template Id                 Public Key (Account Tab) 
-   emailjs.sendForm('service_9v2gipl', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
+   emailjs.sendForm('service_9v2gipl', 'template_rxc8sbg', form.current, 'jysvNywN0d2HeSXN1')
      .then((result) => {
          console.log(result.text);
      }, (error) => {
@@ -38,7 +38,7 @@ const Contact = () => {
             <input className="user-input" type="text" name='email' placeholder='Email' required />
             <textarea className="user-input email-input" name="message" rows="4" placeholder="Message" required ></textarea>
             <div className="submit-btn">
-            <button type='submit' className="btn-modal btn btn-primary">Send</button>
+                <button type='submit' className="btn-modal btn btn-primary">Send</button>
             </div>
           </form>
       </div>

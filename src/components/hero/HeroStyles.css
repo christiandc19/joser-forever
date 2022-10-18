@@ -18,6 +18,9 @@
     z-index: -1;
 }
 
+.subtitle {
+    letter-spacing: .5rem;
+}
 
 .hero .container {
     display: grid;
@@ -34,10 +37,14 @@
 }
 
 .hero h1 {
-    color: #244100;
-    font-size: 5rem;
+    color: var(--secondary-color);
+    font-size: 7rem;
+    letter-spacing: .5rem;
+
     font-family: 'Viga', sans-serif;
 }
+
+
 
 .hero h2 {
     color: #f8f8f8;
@@ -46,7 +53,7 @@
 }
 
 .hero p {
-    color: #f8f8f8;
+    color:var(--secondary-color);
 }
 
 

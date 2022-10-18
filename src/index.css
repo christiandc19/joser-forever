@@ -3,9 +3,10 @@
 :root {
   --primary-color: #0fB8e0;
   --primary-dark: #0d2154;
+  --secondary-color: #5BB318;
 }
 span {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 * {

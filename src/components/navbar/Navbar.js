@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {Link} from 'react-router-dom'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/joser-logo.png'
 import './NavbarStyles.css'
 
 const Navbar = () => {
