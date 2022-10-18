@@ -6,7 +6,6 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    margin-top: 2rem;
     gap: 1rem;
 }
 
@@ -33,7 +32,6 @@
     width: 300px;
     border: 1px solid rgb(224, 214, 214);
     border-radius: 10px;
-    /* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);    */
 }
 
 .main {
@@ -43,13 +41,31 @@
 }
 
 .image {
-    width: 100%;
+    width: 80%;
 }
 
 .card-button {
     border-radius: 10px;
     margin-left: 27%;
 }
+
+@media screen and (max-width:940px) {
+    .about .content {
+    width: 100%;
+    }
+
+    .image {
+        width: 60%;
+    }
+
+    .insuranceLogos {
+        margin-top: 10rem;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
 
 /* .card-button {
     padding: 0.3rem;

@@ -13,7 +13,6 @@ function App() {
       <Hero />
       <Services />
       <Testimonials />
-      <Insurance />
       <Footer />
     </>
   );

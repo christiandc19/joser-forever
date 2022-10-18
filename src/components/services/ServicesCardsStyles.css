@@ -33,9 +33,13 @@
     justify-content: center;
 }
 
-.image {
+.servicesCards img {
     width: 100%;
 }
+
+/* .image {
+    width: 100%;
+} */
 
 .card-button {
     border-radius: 10px;

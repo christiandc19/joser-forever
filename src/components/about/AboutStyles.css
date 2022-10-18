@@ -27,6 +27,7 @@
 }
 
 .about p {
+    font-size: 14px;
     color: #f8f8f8;
     margin: 1rem 0;
     text-align: justify;
