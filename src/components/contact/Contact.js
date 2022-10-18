@@ -18,7 +18,7 @@ const Contact = () => {
 
 
                   //    Service Id        Template Id                 Public Key (Account Tab) 
-   emailjs.sendForm('service_9v2gipl', 'template_rxc8sbg', form.current, 'jysvNywN0d2HeSXN1')
+   emailjs.sendForm('service_9v2gipl', 'template_rxc8sbg', form.current, 'Rj5e7bWJla-kOEL0H')
      .then((result) => {
          console.log(result.text);
      }, (error) => {
@@ -30,9 +30,8 @@ const Contact = () => {
 
     return (
       <>
-      <div class="bg-contact"></div>
+<div className='contact'>
       <div className="container contact-container">
-        
           <form ref={form} onSubmit={sendEmail}>
             <h1>SEND A MESSAGE</h1>
             <input className="user-input" type="text" name='name' placeholder='Name' required />
@@ -41,10 +40,9 @@ const Contact = () => {
             <div className="submit-btn">
             <button type='submit' className="btn-modal btn btn-primary">Send</button>
             </div>
-
           </form>
       </div>
-
+</div>
       </>
     )
 }
