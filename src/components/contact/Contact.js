@@ -1,31 +1,54 @@
-import React from 'react'
-import './ContactStyles.css'
+import React, {useRef} from "react";
+import './ContactStyles.css';
+import emailjs from 'emailjs-com'
+
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+// Popup message after send button is clicked
+    const feedbackEl = document.querySelector(".feedback");
+    feedbackEl.setAttribute("class", "feedback");
+  setTimeout(function() {
+    feedbackEl.setAttribute("class", "feedback hide");
+  }, 4000);
+
+
+                  //    Service Id        Template Id                 Public Key (Account Tab) 
+   emailjs.sendForm('service_9v2gipl', 'template_rxc8sbg', form.current, 'jysvNywN0d2HeSXN1')
+     .then((result) => {
+         console.log(result.text);
+     }, (error) => {
+         console.log(error.text);
+     });
+
+     e.target.reset()
+ };
+
     return (
-        <div className='contact'>
-            <div className="container">
-                <div className="form-container">
-                    <form>
-                        <h1><span>Contact</span> Us</h1>
-                        <div>
-                            <label>Name</label>
-                            <input type="text" placeholder='Enter your name'/>
-                        </div>
-                        <div>
-                            <label>Email</label>
-                            <input type="email" placeholder='Enter your email'/>
-                        </div>
-                        <div>
-                            <label>Message</label>
-                            <textarea rows='10' placeholder='Enter your name'/>
-                        </div>
-                        <button>Submit</button>
-                    </form>
-                </div>
+      <>
+      <div class="bg-contact"></div>
+      <div className="container contact-container">
+        
+          <form ref={form} onSubmit={sendEmail}>
+            <h1>SEND A MESSAGE</h1>
+            <input className="user-input" type="text" name='name' placeholder='Name' required />
+            <input className="user-input" type="text" name='email' placeholder='Email' required />
+            <textarea className="user-input email-input" name="message" rows="4" placeholder="Message" required ></textarea>
+            <div className="submit-btn">
+            <button type='submit' className="btn-modal btn btn-primary">Send</button>
             </div>
-        </div>
+
+          </form>
+      </div>
+
+      </>
     )
 }
+
+
 
 export default Contact
