@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/joser-forever/static/css/main.ff018b2b.css",
-    "main.js": "/joser-forever/static/js/main.89a4a0e7.js",
+    "main.js": "/joser-forever/static/js/main.f84a72fd.js",
     "static/media/footer-bg.jpg": "/joser-forever/static/media/footer-bg.344c8ecaa109f0c5f90e.jpg",
     "static/media/treatment-image-1.jpg": "/joser-forever/static/media/treatment-image-1.cc98ec1fd8e25daa9862.jpg",
     "static/media/contact-bg.png": "/joser-forever/static/media/contact-bg.c2dab7563f17c5593f16.png",
@@ -25,10 +25,10 @@
     "static/media/cigna.png": "/joser-forever/static/media/cigna.b83d58397cc1db701f50.png",
     "index.html": "/joser-forever/index.html",
     "main.ff018b2b.css.map": "/joser-forever/static/css/main.ff018b2b.css.map",
-    "main.89a4a0e7.js.map": "/joser-forever/static/js/main.89a4a0e7.js.map"
+    "main.f84a72fd.js.map": "/joser-forever/static/js/main.f84a72fd.js.map"
   },
   "entrypoints": [
     "static/css/main.ff018b2b.css",
-    "static/js/main.89a4a0e7.js"
+    "static/js/main.f84a72fd.js"
   ]
 }
