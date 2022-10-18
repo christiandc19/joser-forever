@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/joser-forever/static/css/main.8adc69d5.css",
-    "main.js": "/joser-forever/static/js/main.dbd464f1.js",
+    "main.css": "/joser-forever/static/css/main.67129248.css",
+    "main.js": "/joser-forever/static/js/main.2c0e20ee.js",
     "static/media/footer-bg.jpg": "/joser-forever/static/media/footer-bg.344c8ecaa109f0c5f90e.jpg",
     "static/media/treatment-image-1.jpg": "/joser-forever/static/media/treatment-image-1.cc98ec1fd8e25daa9862.jpg",
     "static/media/treatment-bg.jpg": "/joser-forever/static/media/treatment-bg.8b1cda88380fed1fbf09.jpg",
-    "static/media/logo.png": "/joser-forever/static/media/logo.071d57804fd3348a02c3.png",
     "static/media/mission-bg.jpg": "/joser-forever/static/media/mission-bg.c7edba9411169136c403.jpg",
     "static/media/about-us-bg.jpg": "/joser-forever/static/media/about-us-bg.b462c72e374e14104950.jpg",
     "static/media/hero-bg.jpg": "/joser-forever/static/media/hero-bg.9eb707342e2d51befb19.jpg",
@@ -14,6 +13,7 @@
     "static/media/mental-illness.png": "/joser-forever/static/media/mental-illness.725a0fd5b6fe55782d42.png",
     "static/media/insurance-bg.jpg": "/joser-forever/static/media/insurance-bg.27d39231e002a5d4e344.jpg",
     "static/media/addiction-treatment.png": "/joser-forever/static/media/addiction-treatment.118142399acc8056ca5a.png",
+    "static/media/joser-logo.png": "/joser-forever/static/media/joser-logo.9f1e3ea93f0460138bcf.png",
     "static/media/testimonials-bg.jpg": "/joser-forever/static/media/testimonials-bg.e92ba952ae9cb116ec1a.jpg",
     "static/media/mhn.png": "/joser-forever/static/media/mhn.355f6f9c947de530f3db.png",
     "static/media/beacon.png": "/joser-forever/static/media/beacon.1508237aac3182ac96e8.png",
@@ -23,11 +23,11 @@
     "static/media/bluecross.png": "/joser-forever/static/media/bluecross.a7cff49d3bbeeaeeabb4.png",
     "static/media/cigna.png": "/joser-forever/static/media/cigna.b83d58397cc1db701f50.png",
     "index.html": "/joser-forever/index.html",
-    "main.8adc69d5.css.map": "/joser-forever/static/css/main.8adc69d5.css.map",
-    "main.dbd464f1.js.map": "/joser-forever/static/js/main.dbd464f1.js.map"
+    "main.67129248.css.map": "/joser-forever/static/css/main.67129248.css.map",
+    "main.2c0e20ee.js.map": "/joser-forever/static/js/main.2c0e20ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.8adc69d5.css",
-    "static/js/main.dbd464f1.js"
+    "static/css/main.67129248.css",
+    "static/js/main.2c0e20ee.js"
   ]
 }
