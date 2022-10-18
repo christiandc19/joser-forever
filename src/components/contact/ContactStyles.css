@@ -1,6 +1,6 @@
 .contact-hero {
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     position: relative;
     background: rgba(0, 0, 0, .4);
 }
@@ -36,14 +36,14 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 160vh;
+    height: 90vh;
     position: relative;
-    background: rgba(0, 0, 0, .4);
+    background: rgba(6, 117, 3, 0.4);
 }
 
 .map {
-    margin-top: 16rem;
-    margin-left: 5rem;
+    margin-top: 3rem;
+    margin-left: 12rem;
 }
 
 .contact-container {
@@ -54,7 +54,7 @@
 }
 
 .contact-container form {
-    margin-top: 15rem;
+    margin-top: 0rem;
 }
 
 .user-input {
@@ -103,7 +103,7 @@ h1 {
     } 
     
     .map {
-        margin-top: 12rem;
+        margin-top: 2rem;
         margin-left: 1rem;
         width: 100vw;
     }
@@ -112,6 +112,10 @@ h1 {
     .contact-container form {
         margin-top: 0;
         margin-bottom: 0;
+    }
+
+    .contact {
+        height: 140vh;
     }
 
 }
