@@ -1,4 +1,5 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade';
 import './MissionStyles.css'
 
 const Mission = () => {
@@ -6,8 +7,12 @@ const Mission = () => {
         <div className='mission'>
             <div className="container">
                 <div className="content">
+                    <Fade right>
                     <h2><span>Our</span> Mission</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, illo. Quisquam, ipsam sunt repudiandae vero ullam consequatur commodi aliquam rem dolorem quidem! Amet atque, fugiat dicta deleniti officia quod quibusdam!</p>
+                    </Fade>
+                    <Fade left>
+                    <p>We strive to make overcoming addiction achievable by focusing on your comfort and safety above all. We use evidence-based medical practices and a holistic, comprehensive approach to healing through guidance, compassion, and community.</p>
+                    </Fade>
                 <div>
                     <button>Learn More</button>
                 </div>

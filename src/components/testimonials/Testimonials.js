@@ -9,7 +9,7 @@ const Testimonials = () => {
                     <h2><span>Hear</span> What They Say</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi officiis unde perferendis voluptas laborum aliquam culpa officia a maiores porro. Consequuntur officia corporis aliquam numquam, fuga quisquam illo. Obcaecati, voluptatum.</p>
                     <div>
-                        <button>Sign Up</button>
+                        <button>Learn More</button>
                     </div>
                 </div>
             </div>

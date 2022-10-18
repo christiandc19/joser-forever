@@ -8,6 +8,29 @@
     text-align: center;
 }
 
+
+.service-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5rem;
+}
+
+.service-3-description {
+    width: 50%;
+    text-align: justify;    
+}
+
+.service-3-image {
+    width: 40%; 
+}
+
+.service-3-image img {
+    border-radius: 1rem;
+    width: 100%;
+}
+
+
 .services h2, .services-third h2 {
     color: #244100;
     font-size: 2.5rem;
@@ -30,7 +53,6 @@
     display: flex;
     justify-content: space-around;
     width: 100vw;
-
 }
 
 .quote {

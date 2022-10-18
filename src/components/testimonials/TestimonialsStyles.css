@@ -19,7 +19,7 @@
     flex-direction: column;
     justify-content: center;
     position: absolute;
-    left: 50%;
+    left: 0;
     top: 30%;
     width: 50%;
 }

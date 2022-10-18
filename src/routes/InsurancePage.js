@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Fade from 'react-reveal/Fade';
 import Navbar from '../components/navbar/Navbar'
 import Insurance from '../components/insurance/Insurance'
 import Footer from '../components/footer/Footer'
@@ -11,6 +11,7 @@ import Beacon from '../assets/beacon.png'
 import Bluecross from '../assets/bluecross.png'
 import Cigna from '../assets/cigna.png'
 import MHN from '../assets/mhn.png'
+import United from '../assets/united-healthcare.png'
 
 
 
@@ -22,14 +23,33 @@ const InsurancePage = () => {
            <Insurance />
 
         <div className='insuranceLogos'>
-        
+            <Fade top>
             <InsuranceLogos Image = { MolinaHealthCare }/>
-            <InsuranceLogos Image = { Aetna }/>
-            <InsuranceLogos Image = { Beacon }/>
-            <InsuranceLogos Image = { Bluecross }/>
-            <InsuranceLogos Image = { Cigna }/>
-            <InsuranceLogos Image = { MHN }/>
+            </Fade>
 
+            <Fade bottom>
+            <InsuranceLogos Image = { Aetna }/>
+            </Fade>
+
+            <Fade top>
+            <InsuranceLogos Image = { Beacon }/>
+            </Fade>
+
+            <Fade bottom>
+            <InsuranceLogos Image = { Bluecross }/>
+            </Fade>
+
+            <Fade top>
+            <InsuranceLogos Image = { Cigna }/>
+            </Fade>
+
+            <Fade bottom>
+            <InsuranceLogos Image = { MHN }/>
+            </Fade>
+            
+            <Fade top>
+            <InsuranceLogos Image = { United }/>
+            </Fade>
         </div>
 
 

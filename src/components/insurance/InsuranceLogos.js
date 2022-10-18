@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../components/insurance/InsuranceLogosStyles.css'
 
+
 function InsuranceLogos(props) {
   return (
         <div className='insurance-props'>

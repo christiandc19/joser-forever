@@ -17,7 +17,7 @@
 .about .content {
     position: absolute;
     top: 30%;
-    width: 50%;
+    width: 90%;
     left: 0;
     padding: 1rem;
 }
@@ -29,6 +29,7 @@
 .about p {
     color: #f8f8f8;
     margin: 1rem 0;
+    text-align: justify;
 }
 
 @media screen and (max-width:940px) {
