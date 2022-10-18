@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import Fade from 'react-reveal/Fade';
 import './AboutStyles.css'
 
@@ -17,7 +18,9 @@ const About = () => {
                     </p>
                     </Fade>
                 <div>
-                    <button>Learn More</button>
+                <Link to="/contact">
+                    <button>Contact Us</button>
+                </Link>
                 </div>
                 </div>
             </div>

@@ -12,10 +12,6 @@ function ServicesCards(props) {
             <p className="card-name">{props.CardName}</p>
             <p className='card-description'>{props.Description}</p>
             </div>
-
-            <div className='btn-container'>
-            <button className='card-button'>View Details</button>
-            </div>
             
         </div>
   )

@@ -16,7 +16,7 @@ const Insurance = () => {
                     <Fade right>
                     <p>If you don’t see your insurance provider below, please reach out to us to find a way to assist you further.</p>
                     </Fade>
-                    <div><button>Learn More</button></div>
+                    <div><button>Contact Us</button></div>
                 </div>
             </div>
         </div>

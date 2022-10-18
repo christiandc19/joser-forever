@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './ServicesStyles.css'
 import './ServicesCardsStyles.css'
 import Fade from 'react-reveal/Fade';
@@ -56,20 +57,26 @@ const Services = () => {
 </Fade>
     </div>
 
+    <Link to="/treatment">
+    <div className='service-cards-btn'>
+        <button>Learn More</button>
+    </div>
+    </Link>
+
 {/* ---------------------------------------------- END of CARDS -------------------------------------------------*/}
 
 
 
 {/* ---------------------------------------------- THIRD SECTION - SERVICES -------------------------------------------------*/}
-<hr className='container'/>
+<hr className='hr-container'/>
 
 <div className='service-3'>
       <div className='service-3-description'>
         <Fade left>
-                    <p><span>Key Areas/Fundamentals </span>
+
+                    <p><span> What We Do </span>
                     <br /> <br />
-                    The treatment plan will be developed between client and counselor from key information gleaned from the assessment and intake process. This treatment plan will be goal and action oriented with objective and measurable criteria. Each treatment plan will have a statement of problem(s) with which the client identifies, statement of objectives to be reached that addressees each problem, action steps for client and counselor to ensure that objective will be completed. 
-                    </p><br />
+                    At Joser Forever Mental Health Treatment Facility, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP). You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one.                    </p><br />
                     <p>
                     Counselor and client will work together to compose a treatment plan with clear objectives and goals based on key areas intake assessment. It will include: challenges that the client may encounter during recovery process, clear methods of navigating obstacles in recovery, action steps to be taken by the program and/or client to overcome the challenges of recovery.
                     </p><br />
