@@ -31,13 +31,13 @@ const Services = () => {
     <ServicesCards
     Image = { Services1 }
     CardName="Mental Health Services​"
-    Description="Lorem Ipsum dolor sit amet pretium consecteru adipiscing elit. Lorem consectetur adipescing elit."
+    Description="Clients suffer from both mental health disorders and addiction. Therefore, we provide treatment for co-occurring disorders, addressing both conditions simultaneously."
     />
 
 <ServicesCards
     Image = { Services2 }
     CardName="Substance Use"
-    Description="Lorem Ipsum dolor sit amet pretium consecteru adipiscing elit. Lorem consectetur adipescing elit."
+    Description="We treat a multitude of substance use disorders. Whether the client is suffering from an alcohol addiction, prescription drug addiction, we can help."
     />
 </Fade>
 
@@ -45,14 +45,14 @@ const Services = () => {
 <ServicesCards
     Image = { Services3 }
     CardName="Addiction Treatment"
-    Description="Lorem Ipsum dolor sit amet pretium consecteru adipiscing elit. Lorem consectetur adipescing elit."
+    Description="We offer programs that's tailored to the needs of the client. With the help of our individualized treatment programs, clients can find the healing and support they need."
     />
 
 
 <ServicesCards
     Image = { Services4 }
     CardName="Employment Assistance"
-    Description="Lorem Ipsum dolor sit amet pretium consecteru adipiscing elit. Lorem consectetur adipescing elit."
+    Description="There are a variety of programs and organizations that fall under the umbrella of employment-based recovery support services. Jobs Assistance is available."
     />
 </Fade>
     </div>
@@ -88,6 +88,7 @@ const Services = () => {
 </div>
 
 {/* ---------------------------------------------- END of THIRD SECTION - SERVICES -------------------------------------------------*/}
+<hr className='hr-container'/>
 
 
   </>

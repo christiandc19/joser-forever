@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Viga&display=swap');
-
 .hero {
     width: 100%;
     height: 100vh;
@@ -37,11 +36,12 @@
 }
 
 .hero h1 {
-    color: var(--secondary-color);
+    color: white;
     font-size: 7rem;
     letter-spacing: .5rem;
-
     font-family: 'Viga', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+
 }
 
 

@@ -120,6 +120,10 @@
     .footer form {
         grid-column: 1 / span 2;
     }
+
+    .logo-footer img{
+        width: 50%;
+    }
 }
 
 
