@@ -16,11 +16,11 @@ const Contact = () => {
     e.preventDefault();
 
 // Popup message after send button is clicked
-    const feedbackEl = document.querySelector(".feedback");
-    feedbackEl.setAttribute("class", "feedback");
-  setTimeout(function() {
-    feedbackEl.setAttribute("class", "feedback hide");
-  }, 4000);
+  //   const feedbackEl = document.querySelector(".feedback");
+  //   feedbackEl.setAttribute("class", "feedback");
+  // setTimeout(function() {
+  //   feedbackEl.setAttribute("class", "feedback hide");
+  // }, 4000);
 
 
                   //    Service Id        Template Id                 Public Key (Account Tab) 

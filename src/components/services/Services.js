@@ -9,6 +9,8 @@ import Services2 from '../../assets/substance-use.png'
 import Services3 from '../../assets/addiction-treatment.png'
 import Services4 from '../../assets/employment-assistance.png'
 import Service3 from '../../assets/treatment-image-1.jpg'
+import Therapy from '../../assets/therapy.jpg'
+
 
 const Services = () => {
   return (
@@ -81,11 +83,16 @@ const Services = () => {
                     Counselor and client will work together to compose a treatment plan with clear objectives and goals based on key areas intake assessment. It will include: challenges that the client may encounter during recovery process, clear methods of navigating obstacles in recovery, action steps to be taken by the program and/or client to overcome the challenges of recovery.
                     </p><br />
         </Fade>
+
+        <div className='service-3-image'>
+                    <img src={ Therapy } alt="" />
+                </div>
+
         </div>
                 <div className='service-3-image'>
                     <img src={ Service3 } alt="" />
                 </div>
-</div>
+        </div>
 
 {/* ---------------------------------------------- END of THIRD SECTION - SERVICES -------------------------------------------------*/}
 <hr className='hr-container'/>

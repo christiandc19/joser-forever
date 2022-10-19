@@ -47,6 +47,11 @@
     width: 40%; 
 }
 
+.service-3 .therapy {
+    width: 60%; 
+
+}
+
 .service-3-image img {
     border-radius: 1rem;
     width: 100%;

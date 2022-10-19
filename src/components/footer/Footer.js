@@ -23,17 +23,44 @@ const Footer = () => {
                 <div className="col-container">
                     <div className="col">
                         <h3>Navigation</h3>
+                        
+                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/'><p>Home</p></Link>
+                        </LinkRoll>
+
+                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/treatment'><p>Treatment</p></Link>
+                        </LinkRoll>
+
+                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/insurance'><p>Insurance</p></Link>
+                        </LinkRoll>
+
+                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/contact'><p>Contact</p></Link>
+                        </LinkRoll>
                     </div>
+
                     <div className="col">
                         <h3>My Account</h3>
+
+                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/mission'><p>Our Mission</p></Link>
+                        </LinkRoll>
+
+                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/about-us'><p>About Us</p></Link>
+                        </LinkRoll>
+
+                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/testimonials'><p>Testimonials</p></Link>
+                        </LinkRoll>
+
+
+                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/'><p>Programs</p></Link>
+                        </LinkRoll>
+                        
                     </div>
                     {/* <div className="col">
                         <h3>Information</h3>
