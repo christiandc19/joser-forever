@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/joser-forever/static/css/main.6bb37abe.css",
+    "main.css": "/joser-forever/static/css/main.0763c62a.css",
     "main.js": "/joser-forever/static/js/main.b8b2c7b6.js",
     "static/media/team-image-2.jpg": "/joser-forever/static/media/team-image-2.e4a45e9a4f7ed13a4813.jpg",
     "static/media/footer-bg.jpg": "/joser-forever/static/media/footer-bg.344c8ecaa109f0c5f90e.jpg",
@@ -41,11 +41,11 @@
     "static/media/bluecross.png": "/joser-forever/static/media/bluecross.a7cff49d3bbeeaeeabb4.png",
     "static/media/cigna.png": "/joser-forever/static/media/cigna.b83d58397cc1db701f50.png",
     "index.html": "/joser-forever/index.html",
-    "main.6bb37abe.css.map": "/joser-forever/static/css/main.6bb37abe.css.map",
+    "main.0763c62a.css.map": "/joser-forever/static/css/main.0763c62a.css.map",
     "main.b8b2c7b6.js.map": "/joser-forever/static/js/main.b8b2c7b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bb37abe.css",
+    "static/css/main.0763c62a.css",
     "static/js/main.b8b2c7b6.js"
   ]
 }
