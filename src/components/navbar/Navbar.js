@@ -25,6 +25,7 @@ const Navbar = () => {
                     <li><Link to='/mission'>Our Mission</Link> </li>
                     <li><Link to='/about-us'>About Us</Link> </li>
                     <li><Link to='/insurance'>Insurance</Link></li>
+                    <li><Link to='/testimonials'>Testimonials</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>
                     {/* <button><a>+1 310 999 9999</a></button> */}
                 </ul>
