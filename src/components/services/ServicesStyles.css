@@ -105,6 +105,14 @@
     margin-left: 1rem;
    } 
 
+   .services h2 {
+        font-size: 22px;
+   }
+
+   .services p {
+    font-size: 15px;
+}
+
    .third-section-image img {
     display: none;
 }
@@ -145,6 +153,10 @@ margin-top: 2rem;
 
 .service-3 img {
     display: none;
+}
+
+.service-3 p {
+    font-size: 15px;
 }
 
 .service-3-description {

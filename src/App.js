@@ -4,7 +4,7 @@ import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import Services from './components/services/Services';
 import InsuranceSection from './components/insurance/InsuranceSection';
-import Testimonials from './components/testimonials/Testimonials';
+import ContactForm from './components/contact/ContactForm';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Hero />
       <Services />
       <InsuranceSection />
-      <Testimonials />
+      <ContactForm />
       <Footer />
     </>
   );

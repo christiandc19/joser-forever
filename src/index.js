@@ -10,7 +10,6 @@ import MissionPage from './routes/MissionPage'
 import AboutPage from './routes/AboutPage'
 import InsurancePage from './routes/InsurancePage'
 import ContactPage from './routes/ContactPage'
-import TestimonialsPage from './routes/TestimonialsPage'
 
 
 ReactDOM.render(
@@ -21,7 +20,6 @@ ReactDOM.render(
       <Route exact path='/mission' element={<MissionPage />} />
       <Route exact path='/about-us' element={<AboutPage />} />
       <Route exact path='/insurance' element={<InsurancePage />} />
-      <Route exact path='/testimonials' element={<TestimonialsPage />} />
       <Route exact path='/contact' element={<ContactPage />} />
     </Routes>
   </BrowserRouter>,

@@ -1,6 +1,6 @@
 .InsuranceSection {
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     position: relative;
     background: rgba(255, 255, 255, 0);
 }
@@ -65,6 +65,10 @@ margin-top: 1rem;
 
     .InsuranceSection p {
         font-size: 15px;
+    }
+
+    .InsuranceSection h2 {
+        font-size: 22px;
     }
 }
 
