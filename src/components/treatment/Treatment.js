@@ -114,19 +114,19 @@ const Treatment = () => {
                         <p><MdPool /> Community pool</p><br />
                         <p><MdVolunteerActivism /> Sober events/fundraisers </p><br />
                         <br />
-                        <p>For more information about our addiction treatment programs, please contact Joser Forever Treatment Facilty today at <span>818-746-6867.</span></p>
-
-                    </Fade>
-                </div>
-            </div>
-
+                        <p>For more information about our addiction treatment programs, please contact Joser Forever Treatment Facilty today.</p>
 
 
                         <div>
-                            <Link to="/contact">
-                                <button>Contact Us</button>
-                            </Link>
+                                <button><a href='818-746-6867'>818-746-6867</a></button>
                         </div>
+
+
+                    </Fade>
+                </div>
+
+
+            </div>
 
 
         </>

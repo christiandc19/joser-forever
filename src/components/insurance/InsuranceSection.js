@@ -6,6 +6,10 @@ import Aetna from '../../assets/aetna.png'
 import Beacon from '../../assets/beacon.png'
 import Bluecross from '../../assets/bluecross.png'
 import Cigna from '../../assets/cigna.png'
+import MolinaHealthCare from '../../assets/molina-healthcare.png'
+import MHN from '../../assets/mhn.png'
+import United from '../../assets/united-healthcare.png'
+
 
 import { Link as LinkRoll } from 'react-scroll'
 
@@ -18,49 +22,58 @@ const InsuranceSection = () => {
                 <div className="content">
 
                 <Fade top>
-                <div className='flex-left'>
-                        <h2><span>WE WORK</span> WITH MAJOR INSURANCE</h2>                   
-                        <p>If you don’t see your insurance provider below, please reach out to us to find a way to assist you further.</p>
+                                <div className='insurance-thumbnail'>
+                                    <img src={Aetna} alt="Aetna Logo" loading="lazy" />
+                                </div>
+                            </Fade>
+
+
+                            <Fade bottom>
+                                <div className='insurance-thumbnail'>
+                                    <img src={Beacon} alt="Beacon Logo" loading="lazy" />
+                                </div>
+                            </Fade>
+
+                            <Fade top>
+                                <div className='insurance-thumbnail'>
+                                    <img src={Bluecross} alt="Bluecross Logo" loading="lazy" />
+                                </div>
+                            </Fade>
+
+                            <Fade bottom>
+                                <div className='insurance-thumbnail'>
+                                    <img src={Cigna} alt="Cigna Logo" loading="lazy" />
+                                </div>
+                            </Fade>
+
+                            <Fade bottom>
+                                <div className='insurance-thumbnail'>
+                                    <img src={MolinaHealthCare} alt="Cigna Logo" loading="lazy" />
+                                </div>
+                            </Fade>
+
+                            <Fade bottom>
+                                <div className='insurance-thumbnail'>
+                                    <img src={MHN} alt="Cigna Logo" loading="lazy" />
+                                </div>
+                            </Fade>
+
+                            <Fade bottom>
+                                <div className='insurance-thumbnail'>
+                                    <img src={United} alt="Cigna Logo" loading="lazy" />
+                                </div>
+                            </Fade>
                 </div>
-                </Fade>
-
-                <div className='flex-right'>
-
-                    <Fade top>
-                    <div className='insurance-thumbnail'>
-                        <img src= { Aetna } alt="Aetna Logo" loading="lazy" />                    
-                    </div>
-                    </Fade>
-
-
-                    <Fade bottom>
-                    <div className='insurance-thumbnail'>
-                        <img src= { Beacon } alt="Beacon Logo" loading="lazy" />   
-                    </div>
-                    </Fade>
-
-                    <Fade top>
-                    <div className='insurance-thumbnail'>
-                        <img src= { Bluecross } alt="Bluecross Logo" loading="lazy" />   
-                    </div>
-                    </Fade>
-
-                    <Fade bottom>
-                    <div className='insurance-thumbnail'>
-                        <img src= { Cigna } alt="Cigna Logo" loading="lazy" />   
-                    </div>
-                    </Fade>
-
-                </div>
-
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                <Link to='/insurance'>
-                    <button>View More</button>
-                </Link>
-                </LinkRoll>
-
             </div>
-        </div>
+
+            <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                <Link to="/treatment">
+                    <div className='service-cards-btn'>
+                        <button>Learn More</button>
+                    </div>
+                </Link>
+            </LinkRoll>
+
         </div>
     )
 }

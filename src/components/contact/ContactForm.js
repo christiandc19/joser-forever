@@ -28,9 +28,10 @@ const ContactForm = () => {
 
     return (
         <>
-            <hr className='hr-container' />
 
             <div className='contactForm'>
+            <hr className='hr-container' />
+
                 <div className="map">
                     <div className="location">
                         <h1 className="location-header">Get In Touch</h1><br />

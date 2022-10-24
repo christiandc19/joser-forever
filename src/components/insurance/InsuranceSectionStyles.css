@@ -6,7 +6,8 @@
 }
 
 .InsuranceSection .content {
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     position: absolute;
     left: 0;
@@ -41,11 +42,6 @@
 }
 
 
-.InsuranceSection button {
-margin: auto;
-margin-top: 1rem;
-}
-
 @media screen and (max-width: 940px) {
     .InsuranceSection .content {
         left: 0;
@@ -56,7 +52,7 @@ margin-top: 1rem;
     }
 
     .InsuranceSection {
-        height: 50vh;
+        height: 70vh;
     }
 
     .testimInsuranceSectiononials h2 {

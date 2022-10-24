@@ -2,8 +2,9 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     position: relative;
+    margin-top: 5rem;
 }
 
 .contactForm h1 {
