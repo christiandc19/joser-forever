@@ -29,7 +29,7 @@ const Treatment = () => {
                 <div className="container">
                     <div className="content">
                         <Fade right>
-                            <h2><span>Our</span> Treatment</h2>
+                            <h1>Treatment</h1>
                         </Fade>
                         <Fade left>
                             <p>All treatment clients will have a recovery/treatment plan developed within 30 days of admission. Measurement and reassessment of treatment plan progress happen on a weekly basis through the weekly summary. In the weekly summary, the drug and alcohol counselor will ensure that action steps to be taken by client or counselor are on target and that the action step achievements will enable resolution of the objective. All treatment plans are reviewed by and signed off on by the clinical director. </p>

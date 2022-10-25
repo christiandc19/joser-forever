@@ -8,7 +8,7 @@ const Hero = () => {
         <div className='hero'>
             <div className="container">
                 <div className="content">
-                <Fade top><h1> <span>JOSER</span> FOREVER</h1></Fade> 
+                <Fade top><h1>JOSER FOREVER</h1></Fade> 
                 
                 <Fade bottom>
                     <h2 className='subtitle'>Mental Health  Treatment Facility </h2>

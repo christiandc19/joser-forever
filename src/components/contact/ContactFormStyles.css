@@ -17,7 +17,6 @@
     color: var(--secondary-color);
 }
 
-
 .map {
     margin-top: 2rem;
     margin-left: 12rem;
@@ -33,12 +32,11 @@
     justify-content: center;
     padding-top: 2rem;
     margin-bottom: 2rem;
-
 }
 
 .contact-container form {
     height: 37rem;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     border-radius: 1rem;
 }
 
@@ -69,6 +67,16 @@ h1 {
     margin-left: 10rem;
 }
 
+.hr-container {
+    width: 80%;
+    margin: auto;
+    top: 20px;
+    border: none;
+    height: 2px;
+    background: var(--primary-color);
+    margin-bottom: 50px;
+    margin-top: 5rem;
+}
 
 /* ======================== MEDIA QUERIES FOR iPad Air ================================ */
 

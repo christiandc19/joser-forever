@@ -8,37 +8,6 @@
     position: relative;
 }
 
-.service-1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 5rem;
-}
-
-.service-1 p {
-    font-size: 16px;
-}
-
-.service-1 h1 {
-    font-size: 22px;
-    color: var(--secondary-color);
-}
-
-.service-1-description {
-    width: 50%;
-    text-align: justify; 
-}
-
-.service-1-image {
-    width: 40%; 
-}
-
-.service-1-image img {
-    border-radius: 1rem;
-    width: 100%;
-}
-
-
 .treatment:before {
     content: '';
     position: absolute;
@@ -56,9 +25,9 @@
     padding: 1rem;
 }
 
-.treatment h2 {
-    font-family: 'Viga', sans-serif;
-    color: #f8f8f8;
+.treatment h1 {
+    color: var(--primary-color);
+    text-align: left;
 }
 
 .treatment p {
@@ -67,9 +36,39 @@
     text-align: justify;
 }
 
-@media screen and (max-width:940px) {
+.service-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5rem;
+}
+
+
+.service-1 h1 {
+    color: var(--primary-color);
+}
+
+.service-1-description {
+    width: 50%;
+    text-align: justify; 
+}
+
+.service-1-image {
+    width: 40%; 
+}
+
+.service-1-image img {
+    border-radius: 1rem;
+    width: 100%;
+}
+
+@media screen and (max-width:992px) {
     .treatment .content {
     width: 100%;
+    }
+
+    .treatment p {
+        font-size: 14px;
     }
 
     .service-1 {
@@ -83,7 +82,15 @@
     .service-1-description {
         width: 100%;    
     }
+    
+    .service-1-description p{
+        width: 100%;   
+        font-size: 14px; 
+    }
+    
+    .service-1-description h1{
+        font-size: 25px; 
+    }
 
 }
-
 

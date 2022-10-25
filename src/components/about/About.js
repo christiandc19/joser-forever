@@ -39,7 +39,7 @@ const About = () => {
             <div className="container">
                 <div className="content">
                     <Fade right>
-                    <h2><span>About</span> Us</h2>
+                    <h1>About Us</h1>
                     </Fade>
                     <Fade left>
                     <p>

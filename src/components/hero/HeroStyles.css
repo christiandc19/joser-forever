@@ -36,24 +36,28 @@
 }
 
 .hero h1 {
-    color: white;
+    color: var(--primary-color);
     font-size: 7rem;
     letter-spacing: .5rem;
-    font-family: 'Viga', sans-serif;
-    /* font-family: 'Poppins', sans-serif; */
-
 }
 
-
+.hr-container {
+    width: 80%;
+    margin: auto;
+    top: 20px;
+    border: none;
+    height: 2px;
+    background: var(--primary-color);
+    margin-bottom: 50px;
+}
 
 .hero h2 {
     color: #f8f8f8;
-    font-size: 2rem;
     margin-top: -1rem;
 }
 
 .hero p {
-    color:var(--secondary-color);
+    color:var(--primary-color);
 }
 
 

@@ -48,7 +48,7 @@
 }
 
 .map .location-header {
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 
@@ -72,7 +72,7 @@
 
 .contact-container form {
     height: 37rem;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     border-radius: 1rem;
 }
 

@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root {
-  --primary-color: #0fB8e0;
+  --primary-color: #5BB318;
   --primary-dark: #0d2154;
-  --secondary-color: #5BB318;
+  --secondary-color: #1C6DD0;
+
 }
+
 span {
   color: var(--secondary-color);
 }
@@ -17,16 +19,13 @@ span {
 
 body {
   margin: 0;
-  font-family: 'Roboto', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -41,14 +40,20 @@ a {
 p {
   font-size: 1.2rem;
   line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-color);
+
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-color);
 }
 
 .container {
@@ -62,8 +67,8 @@ button {
   font-family: 'Roboto', sans-serif;
   padding: .7rem 2rem;
   margin: 1rem 0;
-  background-color: var(--secondary-color);
-  border: 1px solid var(--secondary-color);
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
   color: #f8f8f8;
   font-size: 1rem;
   font-weight: 500;
@@ -74,6 +79,10 @@ button {
 button:hover {
   background-color: #47dcff;
   border: 1px solid #47dcff;
+}
+
+span {
+  color: var(--primary-color);
 }
 
 @media screen and (max-width: 940px) {

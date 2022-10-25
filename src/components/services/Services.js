@@ -65,13 +65,16 @@ const Services = () => {
 
 
             {/* ---------------------------------------------- THIRD SECTION - SERVICES ---------------------------------------*/}
+            
+            
+            
             <hr className='hr-container' />
 
             <div className='service-3'>
                 <div className='service-3-description'>
                     <Fade left>
 
-                        <h1><span> What We Do </span></h1>
+                        <h1>What We Do</h1>
                         <br /> <br />
                         <p>At Joser Forever Mental Health Treatment Facility, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP). You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one.                    </p><br />
                         <p>
