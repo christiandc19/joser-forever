@@ -6,6 +6,17 @@
 }
 
 
+.InsuranceSection .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+}
+
+
 .insurance:before {
     content: '';
     position: absolute;
@@ -13,6 +24,10 @@
     height: 70vh;
     width: 100%;
     z-index: -1;
+}
+
+.InsuranceSection .container p {
+    text-align: center;
 }
 
 .insurance .content {
@@ -41,9 +56,18 @@
     .insurance .content {
         left: 0;
         width: 100%;
+
     }
 
     .insurance h2 {
         font-size: 25px;
+    }
+
+    .InsuranceSection .content{
+        padding-top: 5rem;
+    }
+
+    .service-cards-btn {
+        margin-top: 7rem;
     }
 }
