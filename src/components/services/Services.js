@@ -8,7 +8,7 @@ import ServicesCards from './ServicesCards';
 import Services1 from '../../assets/mental-illness.png'
 import Services2 from '../../assets/substance-use.png'
 import Services4 from '../../assets/employment-assistance2.png'
-import Service3 from '../../assets/treatment-image-1.jpg'
+import WhatWeDo from '../../assets/what-we-do.jpg'
 
 
 const Services = () => {
@@ -69,10 +69,16 @@ const Services = () => {
             
             
             <hr className='hr-container' />
-
+        <div>
             <div className='service-3'>
+
+
+                <div className='service-3-image'>
+                    <img src={WhatWeDo} alt="" />
+                </div>
+                
                 <div className='service-3-description'>
-                    <Fade left>
+                    <Fade right>
 
                         <h1>What We Do</h1>
                         <br /> <br />
@@ -81,13 +87,9 @@ const Services = () => {
                             Counselor and client will work together to compose a treatment plan with clear objectives and goals based on key areas intake assessment. It will include: challenges that the client may encounter during recovery process, clear methods of navigating obstacles in recovery, action steps to be taken by the program and/or client to overcome the challenges of recovery.
                         </p><br />
                     </Fade>
-
-                </div>
-                <div className='service-3-image'>
-                    <img src={Service3} alt="" />
                 </div>
             </div>
-
+        </div>
             {/* ---------------------------------------------- END of THIRD SECTION - SERVICES -------------------------------------------------*/}
             <hr className='hr-container' />
 

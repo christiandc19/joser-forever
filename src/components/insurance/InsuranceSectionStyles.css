@@ -1,8 +1,18 @@
+/* .InsuranceSection::before {
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    background: url('../../assets/insurance-section-bg.jpg')no-repeat center center/cover;
+    background-attachment: fixed;
+} */
+
 .InsuranceSection {
     width: 100%;
-    height: 45vh;
+    height: 80vh;
     position: relative;
-    background: rgba(255, 255, 255, 0);
+    background: rgba(111, 145, 126, 0.281);
+    padding-top: 3rem;
+
 }
 
 .InsuranceSection .content {
@@ -21,7 +31,7 @@
     margin-bottom: 2rem;
 }
 
-.InsuranceSection .content h2 {
+.InsuranceSection h1 {
     text-align: center;
     margin: auto;
     margin-bottom: 0rem;
@@ -41,6 +51,10 @@
     justify-content: center;
 }
 
+.insurance-btn button {
+    margin: auto;
+    margin-top: -6rem;
+}
 
 @media screen and (max-width: 940px) {
     .InsuranceSection .content {

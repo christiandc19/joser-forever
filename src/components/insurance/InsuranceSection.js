@@ -67,11 +67,13 @@ const InsuranceSection = () => {
                                 </div>
                             </Fade>
                 </div>
+
+                
             </div>
 
             <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                <Link to="/treatment">
-                    <div className='service-cards-btn'>
+                <Link to="/insurance">
+                    <div className='insurance-btn'>
                         <button>Learn More</button>
                     </div>
                 </Link>

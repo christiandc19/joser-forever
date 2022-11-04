@@ -50,7 +50,7 @@ const Treatment = () => {
                 <div className='service-1-description'>
                     <Fade left>
                         <h1>Key Areas/Fundamentals</h1>
-                        <br /> <br />
+                        <br />
                         <p>The treatment plan will be developed between client and counselor from key information gleaned from the assessment and intake process. This treatment plan will be goal and action oriented with objective and measurable criteria. Each treatment plan will have a statement of problem(s) with which the client identifies, statement of objectives to be reached that addressees each problem, action steps for client and counselor to ensure that objective will be completed.
                         </p><br />
                         <p>

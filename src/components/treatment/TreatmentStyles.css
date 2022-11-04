@@ -40,7 +40,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 5rem;
+    gap: 2rem;
+    margin: 2rem;
+    margin-top: 3rem;
 }
 
 
@@ -49,12 +51,16 @@
 }
 
 .service-1-description {
-    width: 50%;
+    width: 800px;
     text-align: justify; 
 }
 
+.service-1-description p {
+    font-size: 15px;
+}
+
 .service-1-image {
-    width: 40%; 
+    width: 800px;
 }
 
 .service-1-image img {

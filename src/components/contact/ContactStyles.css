@@ -51,7 +51,6 @@
     color: var(--primary-color);
 }
 
-
 .map {
     margin-top: 2rem;
     margin-left: 12rem;
@@ -88,10 +87,6 @@
 
 .email-input {
     height: 10rem;
-}
-
-h1 {
-    text-align: center;
 }
 
 .submit-btn button {
