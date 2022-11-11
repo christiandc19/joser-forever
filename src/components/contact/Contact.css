@@ -41,11 +41,6 @@
     background: rgba(255, 255, 255, 0);
 }
 
-.contact h1 {
-    margin-top: 1rem;
-    color: white;
-    font-size: 2rem;
-}
 
 .map .location-header {
     color: var(--primary-color);
@@ -57,9 +52,6 @@
     margin-left: 12rem;
 }
 
-.contact .admission {
-    margin-bottom: 5rem;
-}
 
 .contact-container {
     display: flex;
@@ -67,21 +59,14 @@
     justify-content: center;
     padding-top: 2rem;
     margin-bottom: 2rem;
-
-}
-
-.contact-container form {
-    height: 37rem;
-    background-color: var(--primary-color);
-    border-radius: 1rem;
 }
 
 .user-input {
-    width: 22rem;
-    height: 2rem;
+    width: 15rem;
+    height: 1rem;
     margin: 2rem;
     display: block;
-    padding: 1.5rem;
+    padding: 1.2rem;
     border: 2px solid var(--color-bg-variant);
     border-radius: 0.5rem;
 }

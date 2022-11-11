@@ -30,41 +30,15 @@
     font-size: 2rem;
 }
 
-.map .location-header {
-    color: var(--secondary-color);
-}
-
-.map {
-    margin-top: 1.5rem;
-    margin-left: 12rem;
-}
-
 .contactForm .admission {
     margin-bottom: 5rem;
 }
 
-.contact-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 2rem;
-    margin-bottom: 2rem;
-}
-
 .contact-container form {
     height: 37rem;
-    background-color: var(--primary-color);
+    width: 300px;
+    background: url('../../assets/main-hero-bg.jpg')no-repeat center center/cover;
     border-radius: 1rem;
-}
-
-.user-input {
-    width: 22rem;
-    height: 2rem;
-    margin: 2rem;
-    display: block;
-    padding: 1.5rem;
-    border: 2px solid var(--color-bg-variant);
-    border-radius: 0.5rem;
 }
 
 .email-input {
