@@ -4,7 +4,7 @@ import { AiOutlinePhone } from 'react-icons/ai';
 import { AiOutlineMail } from 'react-icons/ai';
 
 
-import './ContactFormStyles.css';
+import './ContactForm.css';
 import emailjs from 'emailjs-com'
 
 
@@ -34,12 +34,12 @@ const ContactForm = () => {
                     <div className="location">
                         <h1 className="location-header">Get In Touch</h1><br />
                         <p><AiOutlinePhone /> +1 123 456 7890  </p><br />
-                        <p><AiOutlineMail /> info@joserforever.com  </p><br />
+                        <p><AiOutlineMail /> info@palmspringsrehab.com  </p><br />
                         <p><BsFillPinMapFill /> 1800 Vine Street Los Angeles Ca 90028  </p><br />
                         <p className="admission">Please call our admission department or fill out the form if you have any questions.</p>
                     </div>
 
-                    <div>
+                    <div className="iframe">
                         <iframe title="map" width="700" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=1800%20Vine%20Street%20Los%20Angle&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ const ContactForm = () => {
                     </form>
                 </div>
             </div>
-    </div>    
+    </div>
         </>
     )
 }

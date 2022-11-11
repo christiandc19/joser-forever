@@ -3,14 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 .hero {
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
     height: 100vh;
     position: relative;
     background: rgba(0, 0, 0, .5);
+    
 }
-
 
 .hero:before {
     content: '';
@@ -21,28 +19,12 @@
     z-index: -1;
 }
 
-.subtitle {
-    letter-spacing: .5rem;
-}
 
-.hero .container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-}
-
-
-.hero-left {
-    width: 30%;
+.hero-content {
+    width: 500px;
     text-align: center;
-    margin-top: 15rem;
-    margin-left: 20rem;
-
-}
-
-.hero-right {
-    width: 30%;
-    margin-top: 20.5rem;
-    margin-left: 5rem;
+    margin: auto;
+    padding-top: 15rem;
 }
 
 .hero h1 {
@@ -53,35 +35,29 @@
     line-height: 3.5rem;
 }
 
+.hero-quote {
+    color: white;
+    padding: .5rem;
+}
+
+.hero button {
+    margin: auto;
+    cursor: pointer;
+}
+
 .subtitle {
     color: var(--primary-color);
-    font-size: 20px;
-    margin-top: 10px;
+    font-size: 30px;
+    padding: 1rem 0 0 0;
 }
 
 .hero img {
     width: 15%;
 }
 
-.hero-right p {
-    color: white;
-}
-
-.hr-container {
-    width: 80%;
-    margin: auto;
-    top: 20px;
-    border: none;
-    height: 2px;
-    background: var(--primary-color);
-    margin-bottom: 50px;
-}
-
-
-
 @media screen and (max-width:940px) {
 
-    .hero {
+    /* .hero {
     width: 100%;
     height: 80vh;
     }
@@ -109,7 +85,7 @@
 .hero p {
     font-size: 13px;
     text-align: center;
-}
+} */
 
 }
 
