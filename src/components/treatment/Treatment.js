@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Fade from 'react-reveal/Fade';
 import './Treatment.css'
 import Service1 from '../../assets/treatment-image-1.jpg'
@@ -34,11 +33,7 @@ const Treatment = () => {
                         <Fade left>
                             <p>All treatment clients will have a recovery/treatment plan developed within 30 days of admission. Measurement and reassessment of treatment plan progress happen on a weekly basis through the weekly summary. In the weekly summary, the drug and alcohol counselor will ensure that action steps to be taken by client or counselor are on target and that the action step achievements will enable resolution of the objective. All treatment plans are reviewed by and signed off on by the clinical director. </p>
                         </Fade>
-                        <div>
-                            <Link to="/contact">
-                                <button>Contact Us</button>
-                            </Link>
-                        </div>
+                    
                     </div>
                 </div>
             </div>

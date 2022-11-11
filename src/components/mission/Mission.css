@@ -36,6 +36,12 @@
     .mission .content {
     width: 100%;
     }
+
+    .mission p {
+        font-size: 14px;
+    }
+
+
 }
 
 
