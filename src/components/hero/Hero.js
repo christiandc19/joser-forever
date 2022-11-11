@@ -20,7 +20,7 @@ const Hero = () => {
                             <h2 className='subtitle'>Mental Health  Treatment Facility </h2>
                         </Fade> 
 
-                        <p className='hero-quote'>Find your happiness and learn to put it first.</p>
+                        <p className='hero-quote'>Find your happiness, <br/> and learn to put it first.</p>
                         <Link to="/treatment">
                         <div><button>Learn More</button></div>
                         </Link>
