@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Link as LinkRoll } from 'react-scroll'
-import './ServicesStyles.css'
+import './Services.css'
 import './ServicesCardsStyles.css'
 import Fade from 'react-reveal/Fade';
 import ServicesCards from './ServicesCards';
@@ -52,11 +52,15 @@ const Services = () => {
                     />
                 </Fade>
             </div>
+
+
+            
             <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                 <Link to="/treatment">
-                    <div className='service-cards-btn'>
-                        <button>Learn More</button>
+                    <div className='card-btn'>
+                    <button>Learn More</button>
                     </div>
+                        
                 </Link>
             </LinkRoll>
 
@@ -68,7 +72,6 @@ const Services = () => {
             
             
             
-            <hr className='hr-container' />
         <div>
             <div className='container whatWeDo'>
                     <Fade right>

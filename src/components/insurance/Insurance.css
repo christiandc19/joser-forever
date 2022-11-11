@@ -20,15 +20,15 @@
 .insurance:before {
     content: '';
     position: absolute;
-    background: url('../../assets/insurance-bg.jpg') no-repeat center center/cover;
+    background: url('../../assets/main-hero-bg.jpg') no-repeat center center/cover;
     height: 70vh;
     width: 100%;
     z-index: -1;
 }
 
-.InsuranceSection .container p {
+/* .InsuranceSection .container p {
     text-align: center;
-}
+} */
 
 .insurance .content {
     position: absolute;
@@ -40,6 +40,7 @@
 
 .insurance h1 {
     text-align: left;
+    font-size: 3rem;
 }
 
 .insurance p {
@@ -49,9 +50,7 @@
 
 @media screen and (max-width: 940px) {
 
-    .insurance {
-        height: 50vh;
-    }
+
 
     .insurance .content {
         left: 0;
@@ -61,6 +60,10 @@
 
     .insurance h2 {
         font-size: 25px;
+    }
+
+    .insurance h1 {
+        font-size: 2rem;
     }
 
     .InsuranceSection .content{

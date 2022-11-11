@@ -41,7 +41,7 @@
 }
 
 .image {
-    width: 80%;
+    width: 100%;
 }
 
 .card-button {
@@ -59,7 +59,6 @@
     }
 
     .insuranceLogos {
-        margin-top: 10rem;
         text-align: center;
         width: 100%;
     }

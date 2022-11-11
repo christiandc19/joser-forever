@@ -21,40 +21,6 @@ const InsurancePage = () => {
         <>
            <Navbar /> 
            <Insurance />
-
-        <div className='insuranceLogos'>
-            <Fade top>
-            <InsuranceLogos Image = { MolinaHealthCare }/>
-            </Fade>
-
-            <Fade bottom>
-            <InsuranceLogos Image = { Aetna }/>
-            </Fade>
-
-            <Fade top>
-            <InsuranceLogos Image = { Beacon }/>
-            </Fade>
-
-            <Fade bottom>
-            <InsuranceLogos Image = { Bluecross }/>
-            </Fade>
-
-            <Fade top>
-            <InsuranceLogos Image = { Cigna }/>
-            </Fade>
-
-            <Fade bottom>
-            <InsuranceLogos Image = { MHN }/>
-            </Fade>
-            
-            <Fade top>
-            <InsuranceLogos Image = { United }/>
-            </Fade>
-        </div>
-
-
-
-
            <Footer />
         </>
     )
