@@ -1,6 +1,5 @@
 .mission-section {
     width: 100%;
-    height: 70vh;
     position: relative;
     background: rgba(255, 255, 255, 0);
 }
@@ -18,11 +17,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: absolute;
-    left: 0;
-    top: 5%;
     width: 100%;
     text-align: center;
+    padding: 2rem;
 }
 
 .mission-section .content p {
@@ -55,25 +52,7 @@
 }
 
 @media screen and (max-width: 940px) {
-    .mission-section .content {
-        left: 0;
-        width: 100%;
-        padding: 1rem;
-        /* background: rgba(255, 255, 255, .7); */
-    }
 
-    .mission-section {
-        height: 140vh;
-    }
-
-    .mission-section h2 {
-        font-size: 25px;
-        margin-top: -3rem;
-    }
-
-    .mission-section p {
-        font-size: 15px;
-    }
 }
 
 

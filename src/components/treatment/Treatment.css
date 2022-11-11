@@ -20,7 +20,7 @@
 .treatment .content {
     position: absolute;
     top: 30%;
-    width: 90%;
+    width: 100%;
     left: 0;
     padding: 1rem;
 }
@@ -82,6 +82,9 @@
     text-align: justify;
 }
 
+.keyAreas-description-content-left p {
+    color: white;
+}
 
 .keyAreas-description-content-right {
     width: 600px;
@@ -128,6 +131,11 @@
     padding: 1rem;
 }
 
+.activities-content p {
+    text-align: center;
+    padding: 0 20px;
+}
+
 .activities-description-content {
     display: flex;
     flex-wrap: wrap;
@@ -144,8 +152,11 @@
 }
 
 .activities-description-content-left h1 {
-
     text-align: center;
+}
+
+.activities-description-content-left p {
+    color: white;
 }
 
 .activities-description-content-right {
@@ -183,39 +194,44 @@
 
 
 
-@media screen and (max-width:992px) {
-    .treatment .content {
-    width: 100%;
-    }
-
-    .treatment p {
-        font-size: 14px;
-    }
+@media screen and (max-width:940px) {
 
     .treatment h1 {
         font-size: 2rem;
     }
 
-    .service-1 {
-        margin: 1rem;
+    .treatment p {
+        font-size: 16px;
     }
 
-    .service-1-image {
-        display: none;
+
+
+    .keyAreas-content h1 {
+        font-size: 1.5rem;
     }
 
-    .service-1-description {
-        width: 100%;    
+    .keyAreas-content p {
+        font-size: 16px;
     }
-    
-    .service-1-description p{
-        width: 100%;   
-        font-size: 14px; 
+
+
+    .keyAreas-description-content-left p {
+        font-size: 16px;
     }
-    
-    .service-1-description h1{
-        font-size: 25px; 
+
+    .activities h1 {
+        font-size: 2rem;
     }
+
+
+    .activities-description-content-left h1 {
+        font-size: 2rem;
+    }
+
+    .activities-description-content-left p {
+        font-size: 16px;
+    }
+
 
 }
 
