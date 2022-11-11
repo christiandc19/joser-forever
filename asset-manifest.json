@@ -1,25 +1,21 @@
 {
   "files": {
-    "main.css": "/joser-forever/static/css/main.3e73f817.css",
-    "main.js": "/joser-forever/static/js/main.a30f59c6.js",
+    "main.css": "/joser-forever/static/css/main.08d5e07f.css",
+    "main.js": "/joser-forever/static/js/main.57d98aa3.js",
     "static/media/footer-bg.jpg": "/joser-forever/static/media/footer-bg.344c8ecaa109f0c5f90e.jpg",
-    "static/media/contact-bg.jpg": "/joser-forever/static/media/contact-bg.4259452787cd040e11e2.jpg",
+    "static/media/activity.jpg": "/joser-forever/static/media/activity.e21a3780b0e0e21ba5a6.jpg",
     "static/media/therapy.jpg": "/joser-forever/static/media/therapy.d1176c8e87de94fcc86d.jpg",
-    "static/media/activity.jpg": "/joser-forever/static/media/activity.09e422b6364bd74b4662.jpg",
     "static/media/mental-illness.png": "/joser-forever/static/media/mental-illness.bd5f071675ce612365cb.png",
+    "static/media/treatment-image-1.jpg": "/joser-forever/static/media/treatment-image-1.182bdffb140211d69bdf.jpg",
     "static/media/employment-assistance2.png": "/joser-forever/static/media/employment-assistance2.8cfd06848637ac5819d6.png",
     "static/media/staff.jpg": "/joser-forever/static/media/staff.9b2630a4cc05d70cac0f.jpg",
-    "static/media/treatment-bg2.jpg": "/joser-forever/static/media/treatment-bg2.b6010099155f437247ca.jpg",
-    "static/media/mission-bg.jpg": "/joser-forever/static/media/mission-bg.c7edba9411169136c403.jpg",
+    "static/media/main-hero-bg.jpg": "/joser-forever/static/media/main-hero-bg.c7edba9411169136c403.jpg",
     "static/media/what-we-do.jpg": "/joser-forever/static/media/what-we-do.27f8fc90f3bc4a6d42c1.jpg",
     "static/media/substance-use.png": "/joser-forever/static/media/substance-use.d4225139d2f1c437007b.png",
-    "static/media/about-us-bg.jpg": "/joser-forever/static/media/about-us-bg.b462c72e374e14104950.jpg",
     "static/media/hero-bg2.jpg": "/joser-forever/static/media/hero-bg2.6634ead294101770c57f.jpg",
     "static/media/employment-assistance.png": "/joser-forever/static/media/employment-assistance.b877570723c987f63091.png",
-    "static/media/insurance-bg.jpg": "/joser-forever/static/media/insurance-bg.27d39231e002a5d4e344.jpg",
     "static/media/joser-logo-wh-2.png": "/joser-forever/static/media/joser-logo-wh-2.f8643fbedba050fd07b1.png",
     "static/media/clinic.jpg": "/joser-forever/static/media/clinic.3c0cf43b0d3bee224bf4.jpg",
-    "static/media/treatment-image-1.jpg": "/joser-forever/static/media/treatment-image-1.8e48d099990dd02b8c60.jpg",
     "static/media/mhn.png": "/joser-forever/static/media/mhn.355f6f9c947de530f3db.png",
     "static/media/beacon.png": "/joser-forever/static/media/beacon.1508237aac3182ac96e8.png",
     "static/media/molina-healthcare.png": "/joser-forever/static/media/molina-healthcare.02bb9c11359036acc206.png",
@@ -28,11 +24,11 @@
     "static/media/bluecross.png": "/joser-forever/static/media/bluecross.a7cff49d3bbeeaeeabb4.png",
     "static/media/cigna.png": "/joser-forever/static/media/cigna.b83d58397cc1db701f50.png",
     "index.html": "/joser-forever/index.html",
-    "main.3e73f817.css.map": "/joser-forever/static/css/main.3e73f817.css.map",
-    "main.a30f59c6.js.map": "/joser-forever/static/js/main.a30f59c6.js.map"
+    "main.08d5e07f.css.map": "/joser-forever/static/css/main.08d5e07f.css.map",
+    "main.57d98aa3.js.map": "/joser-forever/static/js/main.57d98aa3.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e73f817.css",
-    "static/js/main.a30f59c6.js"
+    "static/css/main.08d5e07f.css",
+    "static/js/main.57d98aa3.js"
   ]
 }
