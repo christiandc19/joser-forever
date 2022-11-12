@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/joser-forever/static/css/main.a79fea43.css",
-    "main.js": "/joser-forever/static/js/main.76cf3056.js",
+    "main.css": "/joser-forever/static/css/main.64af7030.css",
+    "main.js": "/joser-forever/static/js/main.3c93b70d.js",
     "static/media/footer-bg.jpg": "/joser-forever/static/media/footer-bg.344c8ecaa109f0c5f90e.jpg",
     "static/media/activity.jpg": "/joser-forever/static/media/activity.e21a3780b0e0e21ba5a6.jpg",
     "static/media/therapy.jpg": "/joser-forever/static/media/therapy.d1176c8e87de94fcc86d.jpg",
@@ -24,11 +24,11 @@
     "static/media/bluecross.png": "/joser-forever/static/media/bluecross.a7cff49d3bbeeaeeabb4.png",
     "static/media/cigna.png": "/joser-forever/static/media/cigna.b83d58397cc1db701f50.png",
     "index.html": "/joser-forever/index.html",
-    "main.a79fea43.css.map": "/joser-forever/static/css/main.a79fea43.css.map",
-    "main.76cf3056.js.map": "/joser-forever/static/js/main.76cf3056.js.map"
+    "main.64af7030.css.map": "/joser-forever/static/css/main.64af7030.css.map",
+    "main.3c93b70d.js.map": "/joser-forever/static/js/main.3c93b70d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a79fea43.css",
-    "static/js/main.76cf3056.js"
+    "static/css/main.64af7030.css",
+    "static/js/main.3c93b70d.js"
   ]
 }
