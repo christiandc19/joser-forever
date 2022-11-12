@@ -89,17 +89,6 @@ h1 {
 }
 
 
-  /*  =============================== MODAL ======================================== */
-
-.hide {
-    display: none;
-    margin-bottom: 2rem;
-    color: white;
-    text-align: center;
-    width: 10rem;
-    margin: auto;
-    z-index: 2;
-}
 /* ======================== MEDIA QUERIES FOR iPad Air ================================ */
 
 @media screen and (max-width: 820px) {

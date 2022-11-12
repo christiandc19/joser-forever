@@ -2,6 +2,7 @@
     width: 100%;
     background: rgba(0, 0, 0, .4);
     position: relative;
+
 }
 
 .contactForm-mainContainer:before {
@@ -16,8 +17,6 @@
 .contactForm {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    position: relative;
 }
 
 .location p {
@@ -28,6 +27,10 @@
     margin-top: 1rem;
     color: white;
     font-size: 2rem;
+}
+
+.location h1 {
+    color: white;
 }
 
 .contactForm .admission {
@@ -43,10 +46,6 @@
 
 .email-input {
     height: 10rem;
-}
-
-h1 {
-    text-align: center;
 }
 
 .submit-btn button {
@@ -65,6 +64,10 @@ h1 {
 
     .contactForm-mainContainer iframe {
         display: none;
+    }
+
+    .contactForm .admission {
+        margin-bottom: 0;
     }
 
     }
