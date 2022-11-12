@@ -69,7 +69,14 @@
     .contactForm .admission {
         margin-bottom: 0;
     }
-
+    
     }
 
 
+/* 400px */
+@media screen and (max-width: 400px) {
+    .contactForm-mainContainer {
+        height: 145vh;
+    }
+    
+    }
