@@ -27,7 +27,7 @@
 
 .treatment h1 {
     color: var(--primary-color);
-    text-align: left;
+    text-align: center;
     font-size: 3rem;
 }
 
@@ -198,40 +198,48 @@
 
     .treatment h1 {
         font-size: 2rem;
+        text-align: center;
     }
 
     .treatment p {
         font-size: 14px;
+        line-height: 1rem;
     }
-
-
 
     .keyAreas-content h1 {
         font-size: 1.5rem;
     }
 
     .keyAreas-content p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
+    .keyAreas-description p {
+        font-size: 14px;
+    }
 
     .keyAreas-description-content-left p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .activities h1 {
         font-size: 2rem;
     }
 
+    .activities p {
+        font-size: 14px;
+    }
 
     .activities-description-content-left h1 {
         font-size: 2rem;
     }
 
     .activities-description-content-left p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
-
+    .activities-contact p {
+        font-size: 14px;
+    }
 }
 

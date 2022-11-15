@@ -1,9 +1,6 @@
 import React from 'react'
 import './Insurance.css'
 import Fade from 'react-reveal/Fade';
-import { Link } from 'react-router-dom'
-
-
 
 import InsuranceLogos from '../insurance/InsuranceLogos'
 
@@ -18,7 +15,7 @@ import United from '../../assets/united-healthcare.png'
 const Insurance = () => {
     return (
         <>
-            <div>
+            <div className='insurance-header'>
                 <h1>WE ACCEPT MAJOR INSURANCE</h1>
             </div>
 

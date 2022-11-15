@@ -18,8 +18,7 @@ const MissionSection = () => {
         <div className='mission-section'>
             <div className="container">
                 <div className="content">
-                    <h1><span>What We Can</span> Provide</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi officiis unde perferendis voluptas laborum aliquam culpa officia a maiores porro. Consequuntur officia corporis aliquam numquam, fuga quisquam illo. Obcaecati, voluptatum.</p>
+                    <h1>WHAT WE CAN PROVIDE</h1>
 
 
                             <div className='flex-right'>

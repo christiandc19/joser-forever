@@ -37,8 +37,8 @@
 .aboutUsContainer p {
     color: rgb(0, 0, 0);
     margin: auto;
-    text-align: center;
-    padding: 25px;
+    text-align: justify;
+    padding: 20px;
 }
 
 
@@ -51,7 +51,7 @@
     }
 
     .aboutUsContainer p{
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .about h1 {

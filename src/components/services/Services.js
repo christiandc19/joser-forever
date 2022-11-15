@@ -8,7 +8,6 @@ import ServicesCards from './ServicesCards';
 import Services1 from '../../assets/mental-illness.png'
 import Services2 from '../../assets/substance-use.png'
 import Services4 from '../../assets/employment-assistance2.png'
-import WhatWeDo from '../../assets/what-we-do.jpg'
 
 
 const Services = () => {
@@ -18,7 +17,7 @@ const Services = () => {
                 <div className="container">
                     <Fade top>
                         <div className="content">
-                            <h2>OUR SERVICES</h2>
+                            <h1>OUR SERVICES</h1>
                             <p>At Joser Forever, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
                         </div>
                     </Fade>
@@ -82,7 +81,6 @@ const Services = () => {
                 </div>
             </div>
             {/* ---------------------------------------------- END of THIRD SECTION - SERVICES -------------------------------------------------*/}
-            <hr className='hr-container' />
 
         </>
 

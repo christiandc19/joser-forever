@@ -5,7 +5,6 @@
     background: rgba(0, 0, 0, .3);
 }
 
-
 .InsuranceSection .content {
     display: flex;
     flex-wrap: wrap;
@@ -16,6 +15,17 @@
     width: 100%;
 }
 
+.insuranceLogos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.insuranceLogos img {
+    width: 300px;
+}
 
 .insurance:before {
     content: '';
@@ -26,26 +36,28 @@
     z-index: -1;
 }
 
-/* .InsuranceSection .container p {
-    text-align: center;
-} */
-
 .insurance .content {
     position: absolute;
     left: 0;
     top: 30%;
-    width: 50%;
+    width: 100%;
     padding: 1rem;
 }
 
 .insurance h1 {
-    text-align: left;
+    text-align: center;
     font-size: 3rem;
 }
 
 .insurance p {
     color: #f8f8f8;
-    margin: 1rem 0;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.insurance button {
+    margin: auto;
 }
 
 @media screen and (max-width: 940px) {
@@ -73,4 +85,18 @@
     .service-cards-btn {
         margin-top: 7rem;
     }
+
+
+    .insuranceLogos img {
+        width: 150px;
+    }
+
+    .insurance h1 {
+        font-size: 2rem;
+    }
+
+    .insurance-header h1 {
+        font-size: 1.5rem;
+    }
+    
 }
