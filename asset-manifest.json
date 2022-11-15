@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/joser-forever/static/css/main.650e5f77.css",
-    "main.js": "/joser-forever/static/js/main.3c93b70d.js",
+    "main.css": "/joser-forever/static/css/main.2142074b.css",
+    "main.js": "/joser-forever/static/js/main.2f45edde.js",
     "static/media/footer-bg.jpg": "/joser-forever/static/media/footer-bg.344c8ecaa109f0c5f90e.jpg",
     "static/media/activity.jpg": "/joser-forever/static/media/activity.e21a3780b0e0e21ba5a6.jpg",
     "static/media/therapy.jpg": "/joser-forever/static/media/therapy.d1176c8e87de94fcc86d.jpg",
@@ -10,7 +10,6 @@
     "static/media/employment-assistance2.png": "/joser-forever/static/media/employment-assistance2.8cfd06848637ac5819d6.png",
     "static/media/staff.jpg": "/joser-forever/static/media/staff.9b2630a4cc05d70cac0f.jpg",
     "static/media/main-hero-bg.jpg": "/joser-forever/static/media/main-hero-bg.c7edba9411169136c403.jpg",
-    "static/media/what-we-do.jpg": "/joser-forever/static/media/what-we-do.27f8fc90f3bc4a6d42c1.jpg",
     "static/media/substance-use.png": "/joser-forever/static/media/substance-use.d4225139d2f1c437007b.png",
     "static/media/hero-bg2.jpg": "/joser-forever/static/media/hero-bg2.6634ead294101770c57f.jpg",
     "static/media/employment-assistance.png": "/joser-forever/static/media/employment-assistance.b877570723c987f63091.png",
@@ -24,11 +23,11 @@
     "static/media/bluecross.png": "/joser-forever/static/media/bluecross.a7cff49d3bbeeaeeabb4.png",
     "static/media/cigna.png": "/joser-forever/static/media/cigna.b83d58397cc1db701f50.png",
     "index.html": "/joser-forever/index.html",
-    "main.650e5f77.css.map": "/joser-forever/static/css/main.650e5f77.css.map",
-    "main.3c93b70d.js.map": "/joser-forever/static/js/main.3c93b70d.js.map"
+    "main.2142074b.css.map": "/joser-forever/static/css/main.2142074b.css.map",
+    "main.2f45edde.js.map": "/joser-forever/static/js/main.2f45edde.js.map"
   },
   "entrypoints": [
-    "static/css/main.650e5f77.css",
-    "static/js/main.3c93b70d.js"
+    "static/css/main.2142074b.css",
+    "static/js/main.2f45edde.js"
   ]
 }
