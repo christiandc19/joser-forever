@@ -46,9 +46,6 @@ const Home = () => {
             </div>
         </div>
 
-        <Services />
-        <ContactForm />
-
 
 
         </>

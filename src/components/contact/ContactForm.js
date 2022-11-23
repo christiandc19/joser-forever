@@ -34,7 +34,7 @@ const ContactForm = () => {
                     <div className="location">
                         <h1>GET IN TOUCH</h1><br />
                         <p><AiOutlinePhone /> +1 (949) 633-1245  </p><br />
-                        <p><AiOutlineMail /> info@palmspringsrehab.com  </p><br />
+                        <p><AiOutlineMail /> info@joserforever.biz  </p><br />
                         <p><BsFillPinMapFill /> 7235 Santa Monica Blvd West Hollywood CA 90046 </p><br />
                         <p className="admission">Please call our admission department or fill out the form if you have any questions.</p>
                     </div>
