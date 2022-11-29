@@ -18,7 +18,7 @@ const Contact = () => {
        <div className="container">
             <div className="content">
             <Fade top>
-                    <h1><span>Have Some </span>Questions?</h1>
+                    <h1>Have Some Questions?</h1>
             </Fade>
             </div>
      </div>

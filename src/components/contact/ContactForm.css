@@ -40,7 +40,7 @@
 .contact-container form {
     height: 37rem;
     width: 300px;
-    background: url('../../assets/main-hero-bg.jpg')no-repeat center center/cover;
+    background: url('../../assets/contactForm-bg.jpg')no-repeat center center/cover;
     border-radius: 1rem;
 }
 

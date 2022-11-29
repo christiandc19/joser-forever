@@ -5,10 +5,10 @@ import './Home.css'
 
 import BgVideo from '../../assets/hero-vbg.mp4'
 
-// import HeroLogo from '../../assets/sacramento-logo.png'
+import HeroLogo from '../../assets/joserlogo.png'
 
-import Services from '../services/Services';
-import ContactForm from '../contact/ContactForm';
+// import Services from '../services/Services';
+// import ContactForm from '../contact/ContactForm';
 
 
 const Home = () => {
@@ -21,15 +21,17 @@ const Home = () => {
                 <div className="content">
                     
 
-                    {/* <div className='hero-logo'>
+                    <div className='hero-logo'>
                     <Fade left>
                         <img src={ HeroLogo } alt="" />
                     </Fade>
                     </div>
- */}
+
 
                 <div className='home-header'>
-                    <h1>JOSER <br/> <span>FOREVER</span></h1>
+                <Fade top>
+                    <h1>Joser <br/> <span>Forever</span></h1>
+                </Fade>
                 </div>
                 
                     <Fade bottom>

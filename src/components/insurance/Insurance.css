@@ -30,7 +30,7 @@
 .insurance:before {
     content: '';
     position: absolute;
-    background: url('../../assets/main-hero-bg.jpg') no-repeat center center/cover;
+    background: url('../../assets/insurance-hero-bg.jpg') no-repeat center center/cover;
     height: 70vh;
     width: 100%;
     z-index: -1;

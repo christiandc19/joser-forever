@@ -18,17 +18,24 @@
 }
 
 .home .container {
-    top: 30%;
+    top: 20%;
     padding: 2rem;
 }
 
-
 .home-header h1{
     color: #ffffff;
-    font-size: 8rem;
-    text-align: left;
+    font-size: 5rem;
+    text-align: center;
     font-family: 'Vollkorn', serif;
-    line-height: 6rem;
+    line-height: 3.5rem;
+}
+
+.hero-logo {
+    text-align: center;
+}
+
+.hero-logo img {
+    width: 7%;
 }
 
 .home span {
@@ -38,20 +45,19 @@
 .home p {
     color: white;
     font-style: italic;
+    text-align: center;
 }
 
 
 .subtitle {
-    color: var(--primary-color);
-    text-align: left;
-    font-size: 30px;
+    color: var(--primary-dark);
+    text-align: center;
+    font-size: 25px;
     font-weight: 600;
 }
 
-
-
-.home .hero-btn button {
-    margin: left;
+.home .home-btn button {
+    margin: auto;
     cursor: pointer;
 }
 
@@ -62,13 +68,20 @@
 
     .home-header h1{
         font-size: 4rem;
-        line-height: 2.5rem;
-        line-height: 3.5rem;
+        line-height: 3rem;
     }
 
     .subtitle {
-        font-size: 1rem;
-        padding: 1rem 0;
+        font-size: 1.5rem;
+        padding: .5rem 0;
+    }
+
+    .home p {
+        font-size: 13px;
+    }
+
+    .hero-logo img {
+        width: 15%;
     }
 
 }
