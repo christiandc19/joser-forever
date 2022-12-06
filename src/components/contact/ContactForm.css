@@ -19,6 +19,10 @@
     flex-wrap: wrap;
 }
 
+.contactForm a:hover {
+    cursor: pointer;
+}
+
 .location p {
     color: white;
 }
