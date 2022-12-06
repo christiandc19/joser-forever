@@ -6,7 +6,6 @@
     position: relative;
     top: 0;
     object-fit: cover;
-    z-index: -2;
 }
 
 .video-bg {
@@ -61,6 +60,12 @@
     cursor: pointer;
 }
 
+
+.home .home-btn button:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+    border: #fff;
+}
 
 /* MEDIA QUERIES */
 
