@@ -21,19 +21,12 @@ const Home = () => {
                 <div className="content">
                     
 
-                    <div className='hero-logo'>
+                <div className='hero-logo'>
                     <Fade left>
-                        <img src={ HeroLogo } alt="" />
+                    <img src={HeroLogo} width="200px" height="220px" alt="Palm Springs Rehab Logo" loading="lazy"/>
                     </Fade>
                     </div>
 
-
-                <div className='home-header'>
-                <Fade top>
-                    <h1>Joser <br/> <span>Forever</span></h1>
-                </Fade>
-                </div>
-                
                     <Fade bottom>
                         <h2 className='subtitle'>MENTAL HEALTH TREATMENT FACILITY</h2>
                         <p>Find your happiness and learn to put it first.</p>

@@ -2,7 +2,7 @@
 
 .home {
     width: 100%;
-    height: 85vh;
+    height: 75vh;
     position: relative;
     top: 0;
     object-fit: cover;
@@ -10,7 +10,7 @@
 
 .video-bg {
     width: 100%;
-    height: 85vh;
+    height: 75vh;
     position: absolute;
     top: 0;
     object-fit: cover;
@@ -21,20 +21,9 @@
     padding: 2rem;
 }
 
-.home-header h1{
-    color: #ffffff;
-    font-size: 5rem;
-    text-align: center;
-    font-family: 'Vollkorn', serif;
-    line-height: 3.5rem;
-}
 
 .hero-logo {
     text-align: center;
-}
-
-.hero-logo img {
-    width: 7%;
 }
 
 .home span {
@@ -71,22 +60,10 @@
 
 @media screen and (max-width:940px) {
 
-    .home-header h1{
-        font-size: 4rem;
-        line-height: 3rem;
-    }
 
-    .subtitle {
-        font-size: 1.5rem;
-        padding: .5rem 0;
-    }
 
     .home p {
         font-size: 13px;
-    }
-
-    .hero-logo img {
-        width: 15%;
     }
 
 }
