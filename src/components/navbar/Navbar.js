@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {Link} from 'react-router-dom'
 import logo from '../../assets/joser-logo-wh-2.png'
-import './NavbarStyles.css'
+import './Navbar.css'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -13,9 +13,9 @@ const Navbar = () => {
         <div name='top' className='navbar'>
             <div className="container">
                 
-                <div className="logo">
+                <div className="navbar-logo">
                     <Link to='/'>
-                    <img src={logo} className="App-logo" alt="logo" />
+                    <img src={logo} width="175px" height="80px" alt="Palm Springs Rehab Logo" loading="lazy"/>
                     </Link>
                 </div>
 
@@ -26,7 +26,6 @@ const Navbar = () => {
                     <li><Link to='/about-us'>About Us</Link> </li>
                     <li><Link to='/insurance'>Insurance</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>
-                    {/* <button><a>+1 310 999 9999</a></button> */}
                 </ul>
                 <div className="hamburger" onClick={handleNav}>
                     {!nav ? (<FaBars className='icon' />) : (<FaTimes className='icon' />)}
