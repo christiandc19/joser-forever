@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/joser-forever/static/css/main.6a92951d.css",
-    "main.js": "/joser-forever/static/js/main.2478cf36.js",
+    "main.css": "/joser-forever/static/css/main.21308487.css",
+    "main.js": "/joser-forever/static/js/main.aa79138e.js",
     "static/media/hero-vbg.mp4": "/joser-forever/static/media/hero-vbg.3380ce78f409f47da061.mp4",
     "static/media/contact-hero-bg.jpg": "/joser-forever/static/media/contact-hero-bg.14fbcad85c44d7dfa7fe.jpg",
     "static/media/contactForm-bg.jpg": "/joser-forever/static/media/contactForm-bg.be09f7c9114d0bbccb75.jpg",
@@ -21,6 +21,7 @@
     "static/media/employment-assistance.png": "/joser-forever/static/media/employment-assistance.b877570723c987f63091.png",
     "static/media/joser-logo-wh-2.png": "/joser-forever/static/media/joser-logo-wh-2.f8643fbedba050fd07b1.png",
     "static/media/clinic.jpg": "/joser-forever/static/media/clinic.3c0cf43b0d3bee224bf4.jpg",
+    "static/media/joserlogo.png": "/joser-forever/static/media/joserlogo.914dd1756109f2bfc221.png",
     "static/media/mhn.png": "/joser-forever/static/media/mhn.355f6f9c947de530f3db.png",
     "static/media/beacon.png": "/joser-forever/static/media/beacon.1508237aac3182ac96e8.png",
     "static/media/molina-healthcare.png": "/joser-forever/static/media/molina-healthcare.02bb9c11359036acc206.png",
@@ -29,11 +30,11 @@
     "static/media/bluecross.png": "/joser-forever/static/media/bluecross.a7cff49d3bbeeaeeabb4.png",
     "static/media/cigna.png": "/joser-forever/static/media/cigna.b83d58397cc1db701f50.png",
     "index.html": "/joser-forever/index.html",
-    "main.6a92951d.css.map": "/joser-forever/static/css/main.6a92951d.css.map",
-    "main.2478cf36.js.map": "/joser-forever/static/js/main.2478cf36.js.map"
+    "main.21308487.css.map": "/joser-forever/static/css/main.21308487.css.map",
+    "main.aa79138e.js.map": "/joser-forever/static/js/main.aa79138e.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a92951d.css",
-    "static/js/main.2478cf36.js"
+    "static/css/main.21308487.css",
+    "static/js/main.aa79138e.js"
   ]
 }
