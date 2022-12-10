@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/joser-forever/static/css/main.91fa78b9.css",
-    "main.js": "/joser-forever/static/js/main.fcd6e162.js",
+    "main.css": "/joser-forever/static/css/main.6a92951d.css",
+    "main.js": "/joser-forever/static/js/main.2478cf36.js",
     "static/media/hero-vbg.mp4": "/joser-forever/static/media/hero-vbg.3380ce78f409f47da061.mp4",
     "static/media/contact-hero-bg.jpg": "/joser-forever/static/media/contact-hero-bg.14fbcad85c44d7dfa7fe.jpg",
     "static/media/contactForm-bg.jpg": "/joser-forever/static/media/contactForm-bg.be09f7c9114d0bbccb75.jpg",
@@ -15,6 +15,7 @@
     "static/media/mental-illness.png": "/joser-forever/static/media/mental-illness.bd5f071675ce612365cb.png",
     "static/media/treatment-image-1.jpg": "/joser-forever/static/media/treatment-image-1.182bdffb140211d69bdf.jpg",
     "static/media/employment-assistance2.png": "/joser-forever/static/media/employment-assistance2.8cfd06848637ac5819d6.png",
+    "static/media/footer-bg.webp": "/joser-forever/static/media/footer-bg.82fabf297fc0244dc3a5.webp",
     "static/media/staff.jpg": "/joser-forever/static/media/staff.9b2630a4cc05d70cac0f.jpg",
     "static/media/substance-use.png": "/joser-forever/static/media/substance-use.d4225139d2f1c437007b.png",
     "static/media/employment-assistance.png": "/joser-forever/static/media/employment-assistance.b877570723c987f63091.png",
@@ -28,11 +29,11 @@
     "static/media/bluecross.png": "/joser-forever/static/media/bluecross.a7cff49d3bbeeaeeabb4.png",
     "static/media/cigna.png": "/joser-forever/static/media/cigna.b83d58397cc1db701f50.png",
     "index.html": "/joser-forever/index.html",
-    "main.91fa78b9.css.map": "/joser-forever/static/css/main.91fa78b9.css.map",
-    "main.fcd6e162.js.map": "/joser-forever/static/js/main.fcd6e162.js.map"
+    "main.6a92951d.css.map": "/joser-forever/static/css/main.6a92951d.css.map",
+    "main.2478cf36.js.map": "/joser-forever/static/js/main.2478cf36.js.map"
   },
   "entrypoints": [
-    "static/css/main.91fa78b9.css",
-    "static/js/main.fcd6e162.js"
+    "static/css/main.6a92951d.css",
+    "static/js/main.2478cf36.js"
   ]
 }
