@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/joser-forever/static/css/main.21308487.css",
-    "main.js": "/joser-forever/static/js/main.aa79138e.js",
+    "main.js": "/joser-forever/static/js/main.9eef7a3c.js",
     "static/media/hero-vbg.mp4": "/joser-forever/static/media/hero-vbg.3380ce78f409f47da061.mp4",
     "static/media/contact-hero-bg.jpg": "/joser-forever/static/media/contact-hero-bg.14fbcad85c44d7dfa7fe.jpg",
     "static/media/contactForm-bg.jpg": "/joser-forever/static/media/contactForm-bg.be09f7c9114d0bbccb75.jpg",
@@ -31,10 +31,10 @@
     "static/media/cigna.png": "/joser-forever/static/media/cigna.b83d58397cc1db701f50.png",
     "index.html": "/joser-forever/index.html",
     "main.21308487.css.map": "/joser-forever/static/css/main.21308487.css.map",
-    "main.aa79138e.js.map": "/joser-forever/static/js/main.aa79138e.js.map"
+    "main.9eef7a3c.js.map": "/joser-forever/static/js/main.9eef7a3c.js.map"
   },
   "entrypoints": [
     "static/css/main.21308487.css",
-    "static/js/main.aa79138e.js"
+    "static/js/main.9eef7a3c.js"
   ]
 }
