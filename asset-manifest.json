@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/joser-forever/static/css/main.21308487.css",
-    "main.js": "/joser-forever/static/js/main.9eef7a3c.js",
+    "main.css": "/joser-forever/static/css/main.e948557d.css",
+    "main.js": "/joser-forever/static/js/main.3b96dee5.js",
     "static/media/hero-vbg.mp4": "/joser-forever/static/media/hero-vbg.3380ce78f409f47da061.mp4",
     "static/media/contact-hero-bg.jpg": "/joser-forever/static/media/contact-hero-bg.14fbcad85c44d7dfa7fe.jpg",
     "static/media/contactForm-bg.jpg": "/joser-forever/static/media/contactForm-bg.be09f7c9114d0bbccb75.jpg",
     "static/media/mission-hero-bg.jpg": "/joser-forever/static/media/mission-hero-bg.226eed5c5ea17ec2d8de.jpg",
-    "static/media/insurance-hero-bg.jpg": "/joser-forever/static/media/insurance-hero-bg.e9055b9a8513932eea89.jpg",
     "static/media/about-hero-bg.jpg": "/joser-forever/static/media/about-hero-bg.6659b23552a839f44559.jpg",
     "static/media/treatment-hero-bg.jpg": "/joser-forever/static/media/treatment-hero-bg.70789958da5af70d6bb5.jpg",
     "static/media/footer-bg.jpg": "/joser-forever/static/media/footer-bg.344c8ecaa109f0c5f90e.jpg",
@@ -19,22 +18,24 @@
     "static/media/staff.jpg": "/joser-forever/static/media/staff.9b2630a4cc05d70cac0f.jpg",
     "static/media/substance-use.png": "/joser-forever/static/media/substance-use.d4225139d2f1c437007b.png",
     "static/media/employment-assistance.png": "/joser-forever/static/media/employment-assistance.b877570723c987f63091.png",
+    "static/media/insurance-bg.jpg": "/joser-forever/static/media/insurance-bg.27d39231e002a5d4e344.jpg",
     "static/media/joser-logo-wh-2.png": "/joser-forever/static/media/joser-logo-wh-2.f8643fbedba050fd07b1.png",
     "static/media/clinic.jpg": "/joser-forever/static/media/clinic.3c0cf43b0d3bee224bf4.jpg",
     "static/media/joserlogo.png": "/joser-forever/static/media/joserlogo.914dd1756109f2bfc221.png",
-    "static/media/mhn.png": "/joser-forever/static/media/mhn.355f6f9c947de530f3db.png",
+    "static/media/horizon.png": "/joser-forever/static/media/horizon.30c14e6f67cb5066fc6b.png",
     "static/media/beacon.png": "/joser-forever/static/media/beacon.1508237aac3182ac96e8.png",
-    "static/media/molina-healthcare.png": "/joser-forever/static/media/molina-healthcare.02bb9c11359036acc206.png",
-    "static/media/united-healthcare.png": "/joser-forever/static/media/united-healthcare.78400c2f51fba67d0aff.png",
     "static/media/aetna.png": "/joser-forever/static/media/aetna.e3fd9d85734b8a724f66.png",
     "static/media/bluecross.png": "/joser-forever/static/media/bluecross.a7cff49d3bbeeaeeabb4.png",
     "static/media/cigna.png": "/joser-forever/static/media/cigna.b83d58397cc1db701f50.png",
+    "static/media/umr.png": "/joser-forever/static/media/umr.d1881860194badb8f407.png",
+    "static/media/optima.png": "/joser-forever/static/media/optima.7b4429e5e6c6a632b8cd.png",
+    "static/media/optum.png": "/joser-forever/static/media/optum.03f8ca41aa7422e27847.png",
     "index.html": "/joser-forever/index.html",
-    "main.21308487.css.map": "/joser-forever/static/css/main.21308487.css.map",
-    "main.9eef7a3c.js.map": "/joser-forever/static/js/main.9eef7a3c.js.map"
+    "main.e948557d.css.map": "/joser-forever/static/css/main.e948557d.css.map",
+    "main.3b96dee5.js.map": "/joser-forever/static/js/main.3b96dee5.js.map"
   },
   "entrypoints": [
-    "static/css/main.21308487.css",
-    "static/js/main.9eef7a3c.js"
+    "static/css/main.e948557d.css",
+    "static/js/main.3b96dee5.js"
   ]
 }
