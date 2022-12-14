@@ -12,6 +12,8 @@ import Umr from '../../assets/umr.png'
 import Optima from '../../assets/optima.png'
 import Optum from '../../assets/optum.png'
 import Horizon from '../../assets/horizon.png'
+import Anthem from '../../assets/anthem.png'
+import United from '../../assets/united.png'
 
 
 
@@ -35,7 +37,7 @@ const InsuranceSection = () => {
 
                 <div className='cards'>
 
-                    <Fade top>
+                    <Fade bottom>
                     <div className='insurance-thumbnail'>
                         <img src= { Aetna } alt="Aetna Logo" loading="lazy" />                    
                     </div>
@@ -48,7 +50,7 @@ const InsuranceSection = () => {
                     </div>
                     </Fade>
 
-                    <Fade top>
+                    <Fade bottomm>
                     <div className='insurance-thumbnail'>
                         <img src= { Bluecross } alt="Bluecross Logo" loading="lazy" />   
                     </div>
@@ -71,14 +73,29 @@ const InsuranceSection = () => {
                         <img src= { Optima } alt="Optima Logo" loading="lazy" />   
                     </div>
 
-                    </Fade>                    <Fade bottom>
+                    </Fade>                    
+                    
+                    <Fade bottom>
                     <div className='insurance-thumbnail'>
                         <img src= { Optum } alt="Optum Logo" loading="lazy" />   
                     </div>
                     </Fade>    
-                                    <Fade bottom>
+                                    
+                    <Fade bottom>
                     <div className='insurance-thumbnail'>
                         <img src= { Horizon } alt="Horizon Logo" loading="lazy" />   
+                    </div>
+                    </Fade>
+
+                    <Fade bottom>
+                    <div className='insurance-thumbnail'>
+                        <img src= { United } alt="United Insurance Logo" loading="lazy" />   
+                    </div>
+                    </Fade>
+
+                    <Fade bottom>
+                    <div className='insurance-thumbnail'>
+                        <img src= { Anthem } alt="Anthem Insurance Logo" loading="lazy" />   
                     </div>
                     </Fade>
 
