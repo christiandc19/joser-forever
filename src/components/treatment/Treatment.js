@@ -141,7 +141,7 @@ const Treatment = () => {
 
             <div className='activities-contact'>
                         <p>For more information about our addiction treatment programs, please  contact Joser Forever Treatment Facilty today.</p>
-                        <button><a href='818-746-6867'>818-746-6867</a></button>
+                        <button><a href='323-801-8511'>323 801-8511</a></button>
             </div>
 
 
