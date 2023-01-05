@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/joser-forever/static/css/main.ceddb666.css",
-    "main.js": "/joser-forever/static/js/main.90e1d4ca.js",
+    "main.css": "/joser-forever/static/css/main.d125344a.css",
+    "main.js": "/joser-forever/static/js/main.342caad1.js",
     "static/media/hero-vbg.mp4": "/joser-forever/static/media/hero-vbg.3380ce78f409f47da061.mp4",
     "static/media/OpSection3.jpg": "/joser-forever/static/media/OpSection3.d970eccf59ff05ed9085.jpg",
     "static/media/PhpSection3.jpg": "/joser-forever/static/media/PhpSection3.eb022f7bbf7236f59fab.jpg",
@@ -38,11 +38,11 @@
     "static/media/anthem.png": "/joser-forever/static/media/anthem.f94082dd511baedda048.png",
     "static/media/optum.png": "/joser-forever/static/media/optum.03f8ca41aa7422e27847.png",
     "index.html": "/joser-forever/index.html",
-    "main.ceddb666.css.map": "/joser-forever/static/css/main.ceddb666.css.map",
-    "main.90e1d4ca.js.map": "/joser-forever/static/js/main.90e1d4ca.js.map"
+    "main.d125344a.css.map": "/joser-forever/static/css/main.d125344a.css.map",
+    "main.342caad1.js.map": "/joser-forever/static/js/main.342caad1.js.map"
   },
   "entrypoints": [
-    "static/css/main.ceddb666.css",
-    "static/js/main.90e1d4ca.js"
+    "static/css/main.d125344a.css",
+    "static/js/main.342caad1.js"
   ]
 }
