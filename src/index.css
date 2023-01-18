@@ -192,7 +192,6 @@ margin: 0px 5px;
 .iop {
   width: 100%;
   height: 80vh;
-  background: rgba(0, 0, 0, .4);
   position: relative;
 }
 
@@ -208,7 +207,6 @@ margin: 0px 5px;
 .php {
   width: 100%;
   height: 80vh;
-  background: rgba(0, 0, 0, .4);
   position: relative;
 }
 
@@ -225,7 +223,6 @@ margin: 0px 5px;
 .op {
   width: 100%;
   height: 80vh;
-  background: rgba(0, 0, 0, .4);
   position: relative;
 }
 
@@ -241,7 +238,6 @@ margin: 0px 5px;
 .jobs {
   width: 100%;
   height: 80vh;
-  background: rgba(0, 0, 0, .4);
   position: relative;
 }
 
@@ -328,7 +324,7 @@ margin: 0px 5px;
 }
 
 .submenu p {
-  color: white;
+  color: rgb(48, 48, 48);
   text-align: justify;
 }
 
