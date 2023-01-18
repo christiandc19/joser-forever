@@ -1,69 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-
-.home {
+.what-we-do {
     width: 100%;
-    height: 75vh;
+    height: 50vh;
     position: relative;
     top: 0;
     object-fit: cover;
+    z-index: -2;
 }
 
-.video-bg {
+.what-we-do-video-bg {
     width: 100%;
-    height: 75vh;
+    height: 50vh;
     position: absolute;
     top: 0;
     object-fit: cover;
 }
 
-.home .container {
-    top: 20%;
+
+.what-we-do .container {
+    top: 10%;
     padding: 2rem;
+    width: auto;
 }
 
-
-.hero-logo {
-    text-align: center;
+.what-we-do p {
+    color: rgb(0, 0, 0);
+    text-align: justify;
 }
 
-.home span {
-    color: white;
-}
-
-.home p {
-    color: white;
-    font-style: italic;
-    text-align: center;
-}
-
-
-.subtitle {
-    color: var(--primary-dark);
-    text-align: center;
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.home .home-btn button {
-    margin: auto;
-    cursor: pointer;
-}
-
-
-.home .home-btn button:hover {
-    background-color: #fff;
+.what-we-do h1 {
     color: var(--primary-color);
-    border: #fff;
 }
 
-/* MEDIA QUERIES */
+
 
 @media screen and (max-width:940px) {
 
+    .home-container .description p {
+        font-size: 14px;
+    }
 
 
-    .home p {
-        font-size: 13px;
+    .home-container .description h1 {
+        font-size: 1.5rem;
+    } 
+
+    .what-we-do p {
+        font-size: 14px;
+    }
+    
+    .what-we-do h1 {
+        font-size: 1.5rem;
     }
 
 }
+
+
+
+
