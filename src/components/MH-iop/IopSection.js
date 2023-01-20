@@ -5,7 +5,7 @@ import { Link as LinkRoll } from 'react-scroll'
 
 
 import IopSection1 from '../../assets/IopSection1.jpg'
-import IopSection2 from '../../assets/IopSection2.jpg'
+import PhpSection2 from '../../assets/PhpSection2.jpg'
 
 
 const IopSection = () => {
@@ -36,7 +36,7 @@ const IopSection = () => {
     </Fade>
     <Fade right>
     <div className="box">
-        <img src={IopSection1} width="600px" height="480px" alt="Palm Springs Rehab Logo" loading="lazy" />
+        <img src={IopSection1} width="600px" height="500px" alt="Palm Springs Rehab Logo" loading="lazy" />
     </div>
     </Fade>
 </div>
@@ -48,7 +48,7 @@ const IopSection = () => {
 
     <Fade right>
     <div className="box">
-        <img src={IopSection2} width="600px" height="450px" alt="Palm Springs Rehab Logo" loading="lazy" />
+        <img src={PhpSection2} width="600px" height="450px" alt="Palm Springs Rehab Logo" loading="lazy" />
     </div>
     </Fade>
 
