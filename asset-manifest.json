@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/joser-forever/static/css/main.327eb986.css",
-    "main.js": "/joser-forever/static/js/main.d99a15b4.js",
+    "main.css": "/joser-forever/static/css/main.5de459e4.css",
+    "main.js": "/joser-forever/static/js/main.ef8be01a.js",
     "static/media/hero-vbg.mp4": "/joser-forever/static/media/hero-vbg.bc328d96c2c50a6d3bc5.mp4",
     "static/media/card2.jpg": "/joser-forever/static/media/card2.5e75af6ddb3c5df54242.jpg",
     "static/media/footer-bg.webp": "/joser-forever/static/media/footer-bg.82fabf297fc0244dc3a5.webp",
@@ -25,7 +25,6 @@
     "static/media/PhpSection1.jpg": "/joser-forever/static/media/PhpSection1.44bd2b3c5fc5fdd47a70.jpg",
     "static/media/OpSection2.jpg": "/joser-forever/static/media/OpSection2.ff48affb66e99314e98a.jpg",
     "static/media/united-healthcare.png": "/joser-forever/static/media/united-healthcare.78400c2f51fba67d0aff.png",
-    "static/media/IopSection2.jpg": "/joser-forever/static/media/IopSection2.b67157e813dfe17bcd15.jpg",
     "static/media/OpSection3.jpg": "/joser-forever/static/media/OpSection3.ec9fb5717069b32f8afd.jpg",
     "static/media/horizon.png": "/joser-forever/static/media/horizon.93f9071008042e378717.png",
     "static/media/clinic.jpg": "/joser-forever/static/media/clinic.221825817753a49607d2.jpg",
@@ -33,11 +32,11 @@
     "static/media/aetna.png": "/joser-forever/static/media/aetna.ba1c7baa5f90d207ae2b.png",
     "static/media/bluecross.png": "/joser-forever/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/joser-forever/index.html",
-    "main.327eb986.css.map": "/joser-forever/static/css/main.327eb986.css.map",
-    "main.d99a15b4.js.map": "/joser-forever/static/js/main.d99a15b4.js.map"
+    "main.5de459e4.css.map": "/joser-forever/static/css/main.5de459e4.css.map",
+    "main.ef8be01a.js.map": "/joser-forever/static/js/main.ef8be01a.js.map"
   },
   "entrypoints": [
-    "static/css/main.327eb986.css",
-    "static/js/main.d99a15b4.js"
+    "static/css/main.5de459e4.css",
+    "static/js/main.ef8be01a.js"
   ]
 }
