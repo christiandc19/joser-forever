@@ -49,7 +49,7 @@ const MHSection = () => {
   <div class="sa-text">
   <h5>SUBTANCE ABUSE​</h5>
   <h1>Intensive Outpatient Program</h1>
-  <p class="sa-animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Oxnard Rehab.</p>
+  <p class="sa-animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Joser Forever Treatment Center.</p>
   <div class="sa-animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/substance-abuse-iop">

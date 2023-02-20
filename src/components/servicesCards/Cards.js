@@ -18,7 +18,7 @@ const Cards = () => {
 
             <div className="cards-header container">
                 <h1>WE OFFER VARIOUS SERVICES </h1>
-                <p>At Joser Forever Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
+                <p>At <span>Joser Forever Treatment Center</span>, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
             </div>
 <div class="card-wrap">
 <div class="tile"> 
@@ -44,7 +44,7 @@ const Cards = () => {
 </Fade>
   <div class="text">
   <h1>SUBSTANCE ABUSE TREATMENT</h1>
-  <p class="animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Palm Springs Rehab.</p>
+  <p class="animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Joser Forever Treatment Center.</p>
   <div class="animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/substance-abuse">

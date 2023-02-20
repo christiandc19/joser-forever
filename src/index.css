@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-  --primary-color: #0e7da8f1;
+  --primary-color: #056b24f1;
   --primary-dark: #0d2154;
   --secondary-color: #46a828;
 
@@ -24,9 +24,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-code {
-  font-family: 'Roboto', sans-serif;
-}
+
 
 ul {
   list-style-type: none;

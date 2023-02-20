@@ -24,9 +24,9 @@ const Hero = () => {
 
             <div className="hero-container">
                 <div className="content">
-                        <h1 className="animate-charcter">JOSER FOREVER</h1>
+                        <h1 className="animate-charcter">Joser Forever</h1>
                     <Fade left>
-                        <h2 className='subtitle'>Substance Abuse Addiction and <br/>Mental Health Treatment Facility</h2>
+                        <h2 className='subtitle'>Substance Abuse Addiction and Mental Health Treatment Facility</h2>
                     </Fade>
                         <br />
                         <div className='hero-btn'>
