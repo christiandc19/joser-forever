@@ -48,4 +48,9 @@
 .insurance h1 {
     font-size: 3rem;
 }
+
+.insurance {
+    height: 60vh;
+  }
+
 }

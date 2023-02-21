@@ -3,11 +3,8 @@ import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import './Hero.css'
 
-// import BgVideo from '../../assets/hero-vbg.mp4'
 
 import waves from '../../assets/waves.svg'
-
-
 
 const Hero = () => {
     return (
@@ -24,14 +21,14 @@ const Hero = () => {
 
             <div className="hero-container">
                 <div className="content">
-                        <h1 className="animate-charcter">Joser Forever</h1>
+                        <h1 className="animate-charcter">JOSER FOREVER</h1>
                     <Fade left>
-                        <h2 className='subtitle'>Substance Abuse Addiction and Mental Health Treatment Facility</h2>
+                        <h2 className='subtitle'>Substance Abuse Addiction and <br/>Mental Health Treatment Facility</h2>
                     </Fade>
                         <br />
                         <div className='hero-btn'>
                         <Link to="/contact">
-                        <button>Get an Appointment</button>
+                        <button>GET AN APPOINTMENT</button>
                     </Link>
                     </div>
                     <br />

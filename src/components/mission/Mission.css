@@ -54,4 +54,8 @@
 .mission h1 {
     font-size: 3rem;
 }
+
+.mission {
+    height: 60vh;
+  }
 }

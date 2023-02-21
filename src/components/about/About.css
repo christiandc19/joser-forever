@@ -46,4 +46,8 @@
 .about h1 {
     font-size: 3rem;
 }
+
+.about {
+    height: 60vh;
+  }
 }

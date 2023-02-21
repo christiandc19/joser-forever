@@ -50,4 +50,14 @@
 .sa h2 {
     font-size: 1rem;
 }
+
+.sa {
+    height: 60vh;
+  }
+
+  .sa:before {
+    height: 60vh;
+  }
+  
+
 }
