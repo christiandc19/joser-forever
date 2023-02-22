@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="container">
                 <div className="top">
                     <div className="logo-footer">
-                    <img src={logo} width="150px" height="60px" alt="Get Real Recovery Logo" loading="lazy"/>
+                    <img src={logo} width="120px" height="60px" alt="Get Real Recovery Logo" loading="lazy"/>
                     </div>
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <BsFillArrowUpCircleFill className='icon' />

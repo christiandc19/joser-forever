@@ -1,0 +1,105 @@
+
+  
+  .whatWeCanProvide {
+    content: '';
+    background: url('../../assets/wcwp-bg.jpg') no-repeat center top/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    margin: 3rem 0;
+    padding: 0 0 3rem 0;
+  }
+
+
+.wwcp-thumbnails-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+    justify-content: center;
+}
+
+.wwcp-thumbnails {
+    width: 300px;
+    margin: 1rem;
+}
+
+.wwcp-thumbnails h1 {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.wwcp-thumbnails p {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+.wwcp-thumbnails img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.wwcp-header {
+    color: white;
+    padding: 10rem 1rem 1rem 0;
+}
+
+.wwcp-header h3 {
+    color: white;
+    padding: 1rem 0;
+}
+
+.wwcp-header h1 {
+    color: white;
+    font-size: 3rem;
+    padding: 0 0 1rem 0;
+}
+
+.wwcp-header p {
+    color: white;
+    text-align: justify;
+}
+
+
+.wwcp-divider-top {
+    position: absolute;
+    top: 5;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+  
+
+  .wwcp-divider-top img {
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 940px) {
+  
+    .wwcp-divider-top img {
+      display: none;
+    }
+
+    .wwcp-header {
+        padding: 3rem 1rem 0 1rem;
+    }
+
+    .wwcp-header h1 {
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .wwcp-header h3 {
+        color: white;
+        font-size: 1rem;
+    }
+    
+
+  }
+
+
