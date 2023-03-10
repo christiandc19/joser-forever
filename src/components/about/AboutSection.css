@@ -41,10 +41,12 @@
 
     .about-section h1 {
         font-size: 25px;
+        text-align: center;
     }
 
     .about-section p {
-        font-size: 15px;
+        font-size: 12px;
+        padding: 1rem;
     }
 }
 
