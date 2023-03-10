@@ -17,9 +17,19 @@ const Cards = () => {
     <>
 
             <div className="cards-header container">
-                <h1>WE OFFER VARIOUS SERVICES </h1>
-                <p>At <span>Joser Forever Treatment Center</span>, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
+
+                <div className="cards-header-left">
+                  <h1>WE OFFER VARIOUS SERVICES </h1>
+                </div>
+                
+                <div className="cards-header-right">
+                  <p>At <span>Joser Forever Treatment Center</span>, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
+                </div>
+                
             </div>
+
+
+
 <div class="card-wrap">
 <div class="tile"> 
   <Fade left>
@@ -27,7 +37,7 @@ const Cards = () => {
   </Fade>
   <div class="text">
   <h1>MENTAL HEALTH TREATMENT​</h1>
-  <p class="animate-text">Some of our clients are here to attend to their mental health, and some come to us for help with addiction and sobriety. Depending on your needs, we offer treatment for co-occurring disorders that can address both mental health and addiction disorders at the same time.</p>
+  <p class="animate-text">Depending on your needs, we offer treatment for co-occurring disorders that can address both mental health and addiction disorders at the same time.</p><br/><br/>
     <div class="animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/mental-health">
@@ -44,7 +54,7 @@ const Cards = () => {
 </Fade>
   <div class="text">
   <h1>SUBSTANCE ABUSE TREATMENT</h1>
-  <p class="animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Joser Forever Treatment Center.</p>
+  <p class="animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Joser Forever Treatment Center.</p><br/><br/>
   <div class="animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/substance-abuse">
@@ -63,7 +73,7 @@ const Cards = () => {
   </Fade>
   <div class="text">
   <h1>EMPLOYMENT ASSISTANCE</h1>
-  <p class="animate-text">We offer a variety of employment tools and resources to help you land on your feet and get hired at a great company in recovery.</p>
+  <p class="animate-text">We offer a variety of employment tools and resources to help you land on your feet and get hired at a great company in recovery.</p><br/><br/><br/>
   <div class="animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/jobs">

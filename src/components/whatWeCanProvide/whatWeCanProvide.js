@@ -6,27 +6,29 @@ import Staff from '../../assets/wcwp-staff.jpg'
 import Jobs from '../../assets/wcwp-jobs.jpg'
 
 
-import Wave2 from '../../assets/wave2.svg'
 
 
 const whatWeCanProvide = () => {
   return (
     <>
+
+
+<div className="wwcp-cards-header container">
+
+                <div className="wwcp-cards-header-left">
+                  <h1>WHAT WE CAN PROVIDE</h1>
+                  <h3><i>"Everyone Deserves A Second Chance At Life..."</i></h3>
+                </div>
+                
+                <div className="wwcp-cards-header-right">
+                  <p> <span>Joser Forever Treatment Center</span> strive to make overcoming addiction achievable by focusing on your sobriety. We use proven medical practices and a comprehensive approach to healing through better guidance, greater compassion, and a stronger community.</p>
+                </div>
+                
+            </div>
+
     <div className='whatWeCanProvide'>
 
-    <div class="wwcp-divider-top">
-<img src={Wave2} loading="lazy" repeat-x alt='wave divider'/>
-</div>
-
-
         <div className='wwcp-content'>
-
-        <div className='wwcp-header container'>
-            <h3>WHAT WE CAN PROVIDE</h3>
-            <h1>Everyone Deserves A Second Chance At Life...</h1>
-            <p>We strive to make overcoming addiction achievable by focusing on your sobriety. We use proven medical practices and a comprehensive approach to healing through better guidance, greater compassion, and a stronger community.</p>
-        </div>
-
         <div className='wwcp-thumbnails-container'>
         <div className='wwcp-thumbnails'>
             <img src={ GroupSupport } alt="Therapy Session" loading="lazy"/>            

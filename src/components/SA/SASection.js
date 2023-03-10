@@ -32,6 +32,7 @@ const MHSection = () => {
   <h5>SUBTANCE ABUSE​</h5>
   <h1>Partial Hospitalizaion Program​</h1>
   <p class="sa-animate-text">Some of our clients are here to attend to their mental health, and some come to us for help with addiction and sobriety.</p>
+  <br/><br/>
     <div class="sa-animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/substance-abuse-php">
@@ -50,7 +51,8 @@ const MHSection = () => {
   <h5>SUBTANCE ABUSE​</h5>
   <h1>Intensive Outpatient Program</h1>
   <p class="sa-animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Joser Forever Treatment Center.</p>
-  <div class="sa-animate-text">
+  <br/><br/>
+  <div class="sa-animate-text ">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/substance-abuse-iop">
             <button>Learn More</button>
@@ -71,6 +73,7 @@ const MHSection = () => {
   <h5>SUBTANCE ABUSE​</h5>
   <h1>Outpatient Program</h1>
   <p class="sa-animate-text">We offer a variety of employment tools and resources to help you land on your feet and get hired at a great company in recovery.</p>
+  <br/><br/>
   <div class="sa-animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/substance-abuse-op">

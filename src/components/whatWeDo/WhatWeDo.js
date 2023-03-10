@@ -13,6 +13,9 @@ const WhatWeDo = () => {
   return (
     <>
 <div className='wrap'>
+
+
+
     <Fade left>
     <div className="box left">
         <h1 className='header'>WHAT WE DO</h1>
