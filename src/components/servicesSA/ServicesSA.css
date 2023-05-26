@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap');
+
+
+.servicesSA {
+    width: 100%;
+    height: auto;
+    background-color: var(--primary-color);
+    padding: 5rem 0;
+}
+
+.servicesSA-content {
+    padding: 5rem 0;
+}
+
+.servicesSA-header {
+    text-align: center;
+}
+
+.servicesSA .servicesSA-header h2 {
+    color: white;
+    font-size: 2rem;
+    padding: 1rem 0;
+    font-family: 'Playfair', serif;
+}
+
+.servicesSA-header p {
+    padding: 0 0 1rem 0;
+}
+
+.servicesSA h1 {
+    color: rgb(255, 136, 0);
+    font-size: 1rem;
+    letter-spacing: 5px;
+    padding: 1rem 0;
+}
+
+.servicesSA h2 {
+    color: rgb(204, 118, 6);
+    font-size: 3rem;
+}
+
+.servicesSA p {
+    color: white;
+}
+
+.servicesSA-flex {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.servicesSA-flexItem {
+    text-align: center;
+    width: 25%;
+    height: auto;
+    padding: 1rem;
+    background-color: rgba(243, 236, 236, 0.116);
+    border-radius: 1rem;
+}
+
+
+.servicesSA-btn {
+    text-align: center;
+}
+
+.servicesSA-btn button {
+    background-color: white;
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+}
+
+.servicesSA-btn button:hover {
+    background-color: #054f4a;
+    color: white;
+}
+
+@media screen and (max-width: 940px) {
+    .servicesSA-flex {
+        flex-wrap: wrap;
+    }
+
+    .servicesSA-flexItem {
+        width: 100%;
+    }
+}

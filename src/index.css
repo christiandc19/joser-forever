@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-  --primary-color: #056b24f1;
-  --primary-dark: #0d2154;
+  --primary-color: #005f59;
+  --primary-dark: #6db193;
   --secondary-color: #46a828;
 
 }
@@ -24,7 +24,9 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-
+code {
+  font-family: 'Roboto', sans-serif;
+}
 
 ul {
   list-style-type: none;
@@ -32,11 +34,11 @@ ul {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: white;
 }
 
 a:hover {
-  color: var(--secondary-color);
+  color: rgb(180, 89, 3);
 }
 
 p {
@@ -47,8 +49,8 @@ p {
 
 h1 {
   font-size: 25px;
+  font-family: 'Roboto', sans-serif;
   color: var(--primary-color);
-  font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -67,22 +69,22 @@ h2 {
 
 button {
   font-family: 'Roboto', sans-serif;
-  padding: .7rem 3rem;
+  padding: 1rem 5rem;
   margin: 1rem 0;
   background-color: var(--primary-color);
   border: 1px solid var(--primary-color);
   color: #f8f8f8;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
-  border-radius: 20px;
+  border-radius: 25px;
   cursor:pointer;
 
 }
 
-button:hover {
-  background-color: #d3a440;
-  border: 1px solid #d3a440;
-}
+/* button:hover {
+  background-color: #530e74;
+  border: 1px solid #530e74;
+} */
 
 span {
   color: var(--primary-color);
@@ -111,7 +113,7 @@ margin: 0px 5px;
 .mh {
   width: 100%;
   height: 80vh;
-  background: rgba(21, 3, 27, 0.521);
+  background-color: rgba(0, 0, 0, 0.562);
   position: relative;
 }
 
@@ -124,11 +126,9 @@ margin: 0px 5px;
   z-index: -1;
 }
 
-
 .iop {
   width: 100%;
   height: 80vh;
-  background: rgba(21, 3, 27, 0.521);
   position: relative;
 }
 
@@ -144,7 +144,6 @@ margin: 0px 5px;
 .php {
   width: 100%;
   height: 80vh;
-  background: rgba(21, 3, 27, 0.521);
   position: relative;
 }
 
@@ -160,7 +159,6 @@ margin: 0px 5px;
 .op {
   width: 100%;
   height: 80vh;
-  background: rgba(21, 3, 27, 0.521);
   position: relative;
 }
 
@@ -254,13 +252,14 @@ margin: 0px 5px;
 
 .main-menu h1 {
   text-align: left;
-  font-size: 4rem;
+  font-size: 2rem;
   padding: 10px 0;
-  color: white;
+  color: var(--secondary-color);
 }
 
 
 .main-menu p {
+  color: rgb(85, 83, 83);
   margin: auto;
   text-align: justify;
   font-size: 16px;
@@ -278,7 +277,7 @@ margin: 0px 5px;
 @media screen and (max-width:940px) {
 
   .main-menu h1 {
-      font-size: 2rem;
+      font-size: 1.5rem;
   }
 
   .main-menu-header h1{
@@ -312,6 +311,7 @@ margin: 0px 5px;
   width: 100%;
 }
 
+
 @media screen and (max-width: 940px) {
 
   .hero-divider img {
@@ -319,3 +319,4 @@ margin: 0px 5px;
   }
 
 }
+

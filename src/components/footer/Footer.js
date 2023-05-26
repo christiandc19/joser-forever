@@ -1,126 +1,212 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
-import { BsFillArrowUpCircleFill } from 'react-icons/bs'
-import logo from '../../assets/nav-logo-wh.png'
-import './FooterStyles.css'
+import React from "react";
+import { Link } from "react-router-dom";
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
+import logo from "../../assets/nav-logo.png";
+// import DHCS from "../../assets/DHCS-logo.png";
 
-import { Link as LinkRoll } from 'react-scroll'
+import "./FooterStyles.css";
+
+import { Link as LinkRoll } from "react-scroll";
 
 const Footer = () => {
-    return (
+  return (
+    <>
+      <div className="footer">
+        <div className="container">
+          <div className="top">
+            <div className="logo-footer">
+              <img
+                src={logo}
+                width="140px"
+                height="80px"
+                alt="Joser Forever Logo"
+                loading="lazy"
+              />
+              {/* <h1>Joser Forever</h1> */}
+            </div>
+            <LinkRoll
+              activeClass="active"
+              to="top"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <BsFillArrowUpCircleFill className="footer-icon" />
+            </LinkRoll>
+          </div>
+          <div className="col-container">
+            <div className="col">
+              <h3>My Account</h3>
 
-<>
-        <div className='footer'>
-            <div className="container">
-                <div className="top">
-                    <div className="logo-footer">
-                    <img src={logo} width="120px" height="60px" alt="Get Real Recovery Logo" loading="lazy"/>
-                    </div>
-                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <BsFillArrowUpCircleFill className='icon' />
-                    </LinkRoll>
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/mission">
+                  <p>Our Mission</p>
+                </Link>
+              </LinkRoll>
 
-                </div>
-                <div className="col-container">
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/about-us">
+                  <p>About Us</p>
+                </Link>
+              </LinkRoll>
 
-                    <div className="col">
-                        <h3>Company</h3>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mission'><p>Our Mission</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/about-us'><p>About Us</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/treatment'><p>Programs</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/jobs'><p>Job Assitance</p></Link>
-                        </LinkRoll>
-                    </div>
-
-
-                    <div className="col">
-                        <h3>Navigation</h3>
-                        
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/'><p>Home</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/treatment'><p>Treatment</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/insurance'><p>Insurance</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/contact'><p>Contact</p></Link>
-                        </LinkRoll>
-                    </div>
-
-
-                    <div className="col">
-                        <h3>SUBSTANCE ABUSE</h3>
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/substance-abuse-php'><p>Partial Hospitalization Program</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/substance-abuse-iop'><p>Intensive Outpatient Program</p></Link>
-                        </LinkRoll>
-
-                        {/* <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/testimonials'><p>Testimonials</p></Link>
-                        </LinkRoll> */}
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/substance-abuse-op'><p>Outpatient Program</p></Link>
-                        </LinkRoll>
-                    </div>
-
-
-                    <div className="col">
-                        <h3>MENTAL HEALTH</h3>
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mental-health-php'><p>Partial Hospitalization Program</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mental-health-iop'><p>Intensive Outpatient Program</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mental-health-op'><p>Outpatient Program</p></Link>
-                        </LinkRoll>
-                    </div>
-
-                    {/* <form>
-                        <h3>Join Our Team</h3>
-                        <input type="email" placeholder='Enter your email' />
-                        <FiMail className='mail-icon' />
-                        <div className="social-group">
-                            <FiInstagram className='social-icon' />
-                            <FiFacebook className='social-icon' />
-                            <FiLinkedin className='social-icon' />
-                            <FiDribbble className='social-icon' />
-                            <FiGithub className='social-icon' />
-                        </div>
-                    </form> */}
-                </div>
-                <p className='copyright'><p>&copy; 2023  Joser Forever Treatment Center. All rights reserved</p></p>
-
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/team">
+                  <p>Our Team</p>
+                </Link>
+              </LinkRoll>
 
             </div>
 
-        </div>
-</>
-    )
-}
 
-export default Footer
+
+
+
+            <div className="col">
+              <h3>Navigation</h3>
+
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/">
+                  <p>Home</p>
+                </Link>
+              </LinkRoll>
+
+
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/insurance">
+                  <p>Insurance</p>
+                </Link>
+              </LinkRoll>
+
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/contact">
+                  <p>Contact</p>
+                </Link>
+              </LinkRoll>
+            </div>
+
+
+
+
+            <div className="col">
+              <h3>PROGRAMS</h3>
+
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/mental-health">
+                  <p>Mental Health Programs</p>
+                </Link>
+              </LinkRoll>
+
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/substance-abuse">
+                  <p>Substance Abuse Programs</p>
+                </Link>
+              </LinkRoll>
+
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/jobs">
+                  <p>Employment Assistance</p>
+                </Link>
+              </LinkRoll>
+            </div>
+
+
+
+
+
+
+
+
+
+            {/* <div className="license">
+              <h3>Licensed by the State Department of Health Care Services</h3>
+              <p>
+                License Number: 191057BP <br />
+                Expiration Date: 6 / 30 / 2023{" "}
+              </p>
+              <br />
+
+              <a
+                href="https://data.chhs.ca.gov/dataset/sud-recovery-treatment-facilities"
+                target="_blank"
+                rel="noreferrer"
+              >
+                ( View License & Certification Information here ).
+              </a>
+              <div>
+                <img
+                  src={DHCS}
+                  width="300px"
+                  height="150px"
+                  alt="Joser Forever Logo"
+                  loading="lazy"
+                />
+              </div>
+            </div> */}
+
+          </div>
+
+          <p className="copyright">
+            <p>&copy; 2023 Joser Forever. All rights reserved</p>
+          </p>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Footer;

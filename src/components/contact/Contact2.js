@@ -33,8 +33,6 @@ const ContactForm = () => {
         <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
     </div>
 
-
-
 <div class="contact2-container">
     <div class="contact-form-content">
 
@@ -43,20 +41,20 @@ const ContactForm = () => {
         <div class="address details">
           <i class="fas fa-map-marker-alt"></i>
           <div class="topic">Address</div><br/>
-          <div class="text-one">7235 Santa Monica Blvd</div>
+          <div class="text-one">7235 Santa Monica Blvd, </div>
           <div class="text-two">West Hollywood CA 90046</div>
         </div>
 
         <div class="phone details">
           <i class="fas fa-phone-alt"></i>
           <div class="topic">Phone</div><br/>
-          <div class="text-one"><a href="tel:3238018511"> +1 (323) 8018511</a></div>
+          <div class="text-one"><a href="tel:3238018511"> +1 (323) 801-8511</a></div>
         </div>
 
         <div class="email details">
           <i class="fas fa-envelope"></i>
           <div class="topic">Email</div><br/>
-          <div class="text-one">info@joserforever.biz</div>
+          <div class="text-one"> info@joserforever.biz</div>
         </div>
       </div>
 

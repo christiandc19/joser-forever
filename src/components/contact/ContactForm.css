@@ -1,10 +1,29 @@
 
+.contact-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .contact-container:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/contact-form-bg.jpg') no-repeat center center/cover;
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+    top: 25%;
+  }
+  
   .get_form_inner {
     display: block;
-    padding: 3rem 3rem ;
+    padding: 2rem 2rem ;
     background: #fff;
     box-shadow: -4px -2px 20px -7px #cfd5df;
-    margin: 2rem 5rem 2rem 5rem;
+    margin: 4rem 2rem 2rem 3rem;
   }
 
 input {
@@ -35,7 +54,7 @@ input {
   }
 
   .get_form_inner_text h3 {
-    color: #333;
+    color: var(--primary-color);
     font-size: 26px;
     font-weight: 600;
   }
@@ -51,8 +70,6 @@ input {
     display: inline-block;
     font-size: 16px;
     text-transform: uppercase;
-    /* background: transparent; */
-    /* border: 2px solid; */
     font-weight: 500;
     padding: 10px 20px;
     outline: 0;
@@ -65,16 +82,14 @@ input {
   }
 
   input[type="submit"]:hover {
-    background-color: var(--secondary-color);
+    background-color: rgb(212, 42, 212);
     border-color: var(--secondary-color);
     color: #fff;
   }
 
-
   .contact-cards-container {
-    display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    width: 330px;
   }
 
   .get_form_inner2 {
@@ -84,7 +99,7 @@ input {
     padding: 2rem 1rem;
     background: #fff;
     box-shadow: -4px -2px 20px -7px #cfd5df;
-    margin: 1rem 1rem 3rem 1rem;
+    margin: 4rem 1rem 1rem 1rem;
   }
 
   .get_form_inner2  h2 {
@@ -98,19 +113,22 @@ input {
     margin: 1rem auto;
     }
 
-    iframe {
+    /* iframe {
       width: 100%;
       border-radius: 1rem;
       border: none;
       box-shadow: 10px 5px 5px rgb(129, 129, 129);
-
+      justify-content: center;
     }
 
+    .iframe {
+      width: 850px;
+    } */
   
 
   @media screen and (max-width: 940px) {
     .get_form_inner {
-        margin: 2rem 1rem 2rem 1rem;
+        margin: 4rem 1rem 2rem 1rem;
       }
 
       iframe {

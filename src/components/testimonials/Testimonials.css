@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.testimonials {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #3f321e9c;
+  }
+  
+  .testimonials:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/menu-bg-testimonials.jpg') no-repeat center bottom/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+.testimonials .testimonials-content {
+    display: block;
+    position: absolute;
+    top: 40%;
+    padding: 1rem;
+}
+
+.testimonials h1 {
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+.testimonials h2 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.testimonials h1 {
+    font-size: 2.5rem;
+}
+}

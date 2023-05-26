@@ -1,18 +1,24 @@
 import React from 'react'
-import Cards from '../servicesCards/Cards'
 import InsuranceSection from '../insurance/InsuranceSection';
-import WhatWeDo from '../whatWeDo/WhatWeDo';
+import WeDo from '../../components/Whatwedo/Whatwedo';
+import Whoweare from '../Whoweare/Whoweare'
 import ContactForm from '../contact/ContactForm';
-import WhatWeCanProvide from '../whatWeCanProvide/whatWeCanProvide'
+// import Team from '../../components/team/TeamSection'
+// import HomeSection1 from '../homeSection1/HomeSection1';
+import ServicesMH from '../servicesMH/ServicesMH';
+import ServicesSA from '../servicesSA/ServicesSA';
 
 
 
 const home = () => {
   return (
     <>
-    <Cards />
-    <WhatWeDo />
-    <WhatWeCanProvide />
+    <Whoweare />
+    <ServicesMH />
+    <WeDo />
+    <ServicesSA />
+    {/* <HomeSection1 /> */}
+    {/* <Team /> */}
     <InsuranceSection />
     <ContactForm />
     </>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
 import './InsuranceSection.css'
+
 import Aetna from '../../assets/aetna.png'
 import Beacon from '../../assets/beacon.png'
 import Bluecross from '../../assets/bluecross.png'
@@ -12,7 +13,7 @@ import Optima from '../../assets/optima.png'
 import Optum from '../../assets/optum.png'
 import Anthem from '../../assets/anthem.png'
 
-import Team from '../../assets/team.jpg'
+import Group from '../../assets/group.jpg'
 
 
 const InsuranceSection = () => {
@@ -67,6 +68,7 @@ const InsuranceSection = () => {
                                 <img src={United} width="640" height="100" alt="United Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
+
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
                                 <img src={Optima} width="640" height="100" alt="Optima Health Insurance Logo" loading="lazy"/>
@@ -86,15 +88,15 @@ const InsuranceSection = () => {
             </div>
 
 
-            <div className='team'>
+            <div className='group'>
             <Fade bottom>
-                <img src={Team} width="500px" height="320px" alt="Company Team" loading="lazy" />
+                <img src={Group} alt="Company Staff" loading="lazy" />
             </Fade>
             </div>
-
-
-
         </div>
+
+
+
         </>
     )
 }
