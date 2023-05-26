@@ -1,5 +1,6 @@
 import React from "react";
 import "./Whatwedo.css";
+import Fade from 'react-reveal/Fade';
 
 import wrapper1 from "../../assets/wrapper1-min.jpg";
 
@@ -10,11 +11,18 @@ const WhatWeDo = () => {
         <div className="wrapper-content container">
 
         <div className="whatWeDo-header">
+              <Fade left>
               <h1>What We Do</h1> <br />
+              </Fade>
+
+              <Fade right>
               <h2>
               <i>We care about your mental health</i>
               </h2>
+              </Fade>
             <br />
+
+            <Fade left>
             <p>
               At Joser Forever Treatment Center, we offer different levels of
               care based on each individual’s needs. Our programs consist of an
@@ -22,29 +30,18 @@ const WhatWeDo = () => {
               structured partial hospitalization program (PHP). You can be
               confident that our caring and professional staff will recommend
               the right level of care for you or your loved one. <br />
-            </p>{" "}
+            </p>
+            </Fade>
             <br />
 </div>
-          
+          <Fade left>
           <div className="wrapper-content-left">
             <img src={wrapper1} alt="nurse" loading="lazy" />
           </div>
+          </Fade>
 
+          <Fade right>
           <div className="wrapper-content-right">
-            {/* <h1>What We Do</h1> <br />
-            <h2>
-              <i>We care about your mental health</i>
-            </h2>{" "}
-            <br />
-            <p>
-              At Joser Forever Treatment Center, we offer different levels of
-              care based on each individual’s needs. Our programs consist of an
-              intensive outpatient program (IOP) and a more demanding and
-              structured partial hospitalization program (PHP). You can be
-              confident that our caring and professional staff will recommend
-              the right level of care for you or your loved one. <br />
-            </p>{" "}
-            <br /> */}
             <h1>Treatment</h1> <br />
             <p>
               All treatment clients will have a recovery/treatment plan
@@ -58,6 +55,7 @@ const WhatWeDo = () => {
               and signed off on by the clinical director.
             </p>
           </div>
+          </Fade>
         </div>
       </div>
     </>

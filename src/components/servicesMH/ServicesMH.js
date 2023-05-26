@@ -1,5 +1,6 @@
 import React from 'react'
 import './ServicesMH.css'
+import Fade from 'react-reveal/Fade';
 import ServicesMH1 from "../../assets/servicesMH1.png";
 import { BsCheckLg } from "react-icons/bs";
 import { Link as LinkRoll } from "react-scroll";
@@ -15,15 +16,24 @@ const ServicesMH = () => {
             </div>
 
             <div className='servicesMH-right'>
+                <Fade left>
                 <h1>SERVICES</h1>
+                </Fade>
+
+                <Fade right>
                 <h2>Mental Health Treatment</h2>
+                </Fade>
+
+                <Fade left>
                 <p>Depending on your needs, we offer treatment for co-occurring disorders that can address both mental health and addiction disorders at the same time.</p>
+                </Fade>
 
                 <div className="servicesMH-icon">
-                     <p> <span><BsCheckLg /></span> Anxiety</p>
-                     <p> <span><BsCheckLg /></span> Sadness/Depression</p>
-                     <p> <span><BsCheckLg /></span> Anger Management</p>
-                     <p> <span><BsCheckLg /></span> Panic Disorder</p>
+
+                     <Fade right><p> <span><BsCheckLg /></span> Anxiety</p></Fade>
+                     <Fade left><p> <span><BsCheckLg /></span> Sadness/Depression</p></Fade>
+                     <Fade right><p> <span><BsCheckLg /></span> Anger Management</p></Fade>
+                     <Fade left><p> <span><BsCheckLg /></span> Panic Disorder</p></Fade>
                 </div>
 
                 <div className='servicesMH-btn'>
