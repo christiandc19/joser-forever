@@ -41,8 +41,8 @@ const ContactForm = () => {
         <div class="address details">
           <i class="fas fa-map-marker-alt"></i>
           <div class="topic">Address</div><br/>
-          <div class="text-one">7235 Santa Monica Blvd, </div>
-          <div class="text-two">West Hollywood CA 90046</div>
+          <div class="text-one">1435 S La Cienega Blvd.,</div>
+          <div class="text-two">Los Angeles, CA 90035</div>
         </div>
 
         <div class="phone details">

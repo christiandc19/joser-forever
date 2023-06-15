@@ -43,7 +43,6 @@ import Schizophrenia from './routes/SchizophreniaPage';
 
 
 import Jobs from './routes/JOBS';
-import Team from './routes/Team';
 
 
 ReactDOM.render(
@@ -85,7 +84,6 @@ ReactDOM.render(
 
       <Route exact path='/mission' element={<MissionPage />} />
       <Route exact path='/about-us' element={<AboutPage />} />
-      <Route exact path='/team' element={<Team />} />
       <Route exact path='/testimonials' element={<TestimonialPage />} />
 
 

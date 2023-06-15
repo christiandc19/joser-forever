@@ -8,6 +8,8 @@
 
 .topbar .topbar-content {
     display: flex;
+    justify-content: space-around;
+    text-align: center;
     color: white;
 }
 
@@ -33,7 +35,7 @@
 }
 
 @media screen and (max-width: 940px) {
-    .topbar {
+    .topbar-hide {
         display: none;
     }
 }

@@ -48,7 +48,7 @@ const ContactForm = () => {
 
     <div class="get_form_inner2">
             <h2>LOCATION</h2>
-            <p><BsFillPinMapFill /> 7235 Santa Monica Blvd West Hollywood CA 90046</p>
+            <p><BsFillPinMapFill /> 1435 S La Cienega BlvdLos Angeles, CA 90035</p>
     </div>
 
 </div>

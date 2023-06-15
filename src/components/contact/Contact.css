@@ -38,17 +38,31 @@
     color: white;
 }
 
+.contact-hero h2 {
+    font-size: 3rem;
+    color: white;
+    padding: 1rem 0;
+}
 
 /* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
 
-.contact-hero h2 {
-    color: white;
-    font-size: 1.5rem;
-}
 
 .contact-hero h1 {
     font-size: 3rem;
+    text-align: center;
 }
+
+.contact-hero h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.contact-hero p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+
 }
