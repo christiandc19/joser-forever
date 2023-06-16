@@ -316,7 +316,7 @@ const Navbar = () => {
             </li>
 
             <li>
-              <Link to="/mission">About Us</Link>{" "}
+              <Link to="/about-us">About Us</Link>{" "}
             </li>
 
 

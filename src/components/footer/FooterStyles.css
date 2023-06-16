@@ -50,26 +50,26 @@
     color: white;
 }
 
-.footer h2 {
-    font-size: 2rem;
-}
 
-.footer h3 {
-    color: rgb(20, 145, 4);
-    font-size: 1rem;
+.col {
+    width: 300px;
 }
 
 .footer .col-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 1rem;
     width: 100%;
 }
 
 .footer h3 {
-    margin: 1rem 0 2rem 0;
+    margin: 2rem 0 1rem 0;
     text-transform: uppercase;
+    text-align: center;
+    color: white;
 }
+
 
 .footer .license p {
     color: white;
@@ -89,7 +89,7 @@
     margin: .5rem 0;
     color: white;
     font-weight: 500;
-    text-align: left;
+    text-align: center;
 }
 
 .footer form {
@@ -144,16 +144,6 @@
         height: 100%;
     }
 
-    .footer .col-container {
-        grid-template-columns: 2fr 1fr;
-
-    }
-
-
-    .footer h1, .footer h2, .footer h3, .footer p{
-        text-align: left;
-    }
-    
 }
 
 

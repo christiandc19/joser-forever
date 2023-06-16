@@ -15,7 +15,7 @@ const Activities = () => {
                 <div className='activities-flex-left'>
                 <h1>Recreations</h1>
             <p>
-                Redding Rehab promotes fun activities that clients learn how to
+                Joser Forever promotes fun activities that clients learn how to
                 develop interests and hobbies that helps then improve their mental
                 health. Clients must be cleared by the doctor to participate.
                 Organized activities may include but are not limited to:

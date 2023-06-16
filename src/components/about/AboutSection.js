@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutSection.css";
+import MissionSection from "../mission/MissionSection";
 
 const AboutSection = () => {
   return (
@@ -12,6 +13,7 @@ const AboutSection = () => {
           clients
         </p>
       </div>
+      < MissionSection />
     </>
   );
 };

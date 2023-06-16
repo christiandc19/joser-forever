@@ -23,7 +23,7 @@ const TreatmentSection = () => {
           Mental Health and Substance Abuse Treatment Above and Beyond the Norms
         </h1>
         <p>
-          Here at Redding Rehab, we firmly stand that without addressing our
+          Here at Joser Forever, we firmly stand that without addressing our
           physical aspect, the mind cannot successfully recover. We go above and
           beyond the norms of mental health care, through a thorough and
           intentional treatment plan that is specific to every kind of
@@ -31,7 +31,7 @@ const TreatmentSection = () => {
           inequalities in the body.
           <br />
           <br />
-          Methods used by Redding Rehab are non-invasive, distinct, and
+          Methods used by Joser Forever are non-invasive, distinct, and
           successful in relieving acute symptoms that act as roadblocks to
           receiving the full therapy. Additionally, to get past more difficult
           progress barriers, these services are provided on a consistent and
