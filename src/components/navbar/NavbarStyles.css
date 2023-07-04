@@ -17,8 +17,12 @@
   height: 100%;
 }
 
+
+.navbar-logo {
+  width: 150px;
+}
 .navbar-logo img {
-  padding: 10px;
+  width: 100%;
 }
 
 .navbar-logo h1 {

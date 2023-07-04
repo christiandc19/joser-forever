@@ -46,8 +46,6 @@ const Navbar = () => {
             <Link to="/">
               <img
                 src={logo}
-                width="170px"
-                height="100px"
                 alt="Joser Forever Logo"
                 loading="lazy"
               />
