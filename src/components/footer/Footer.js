@@ -169,7 +169,7 @@ const Footer = () => {
 
             <div className="license col">
               <h3>Licensed by the State Department of Health Care Services</h3>
-              <p>License Number: 191057BP <br />Expiration Date: 6 / 30 / 2023
+              <p>License Number: 191114AP <br />Expiration Date: 10 / 31 / 2023
               <br />
               <a href="https://data.chhs.ca.gov/dataset/sud-recovery-treatment-facilities" target="_blank" rel="noreferrer">(View License & Certification Information here )</a>
               </p>
