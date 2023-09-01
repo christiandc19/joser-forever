@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+.section-bg {
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0);
+  position: relative;
+}
+
+.section-bg:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.04;
+}
+
+
+#cards {
+  padding: 3rem 0;
+}
+
+.main-cards-header {
+  padding: 1rem;
+}
+
+.main-cards-header p {
+  font-size: 14px;
+  padding: 1rem;
+  color: rgb(17, 17, 17);
+}
+
+.main-cards-header h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgb(18, 19, 19);
+  letter-spacing: 2px;
+  font-family: 'Instrument Serif', serif;
+}
+
+.main-cards-header span {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 1.5rem;
+  color: rgb(207, 95, 4);
+}
+
+.main-cards-header h1 {
+  text-align: center;
+  font-family: 'Instrument Serif', serif;
+  font-size: 1.5rem;
+  color: rgb(12, 12, 12);
+  letter-spacing: 5px;
+}
+
+
+/* CARDS */
+
+.cards-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.services-card {
+  width: 25%;
+}
+
+.services-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.services-card h1 {
+  font-size: 1rem;
+  color: rgb(19, 18, 18);
+  text-align: center;
+  padding: 1rem;
+}
+
+.services-card p {
+  font-size: 14px;
+  color: rgb(19, 18, 18);
+  text-align: center;
+}
+
+.services-card-btn {
+  text-align: center;
+}
+
+.services-card-btn button {
+  border-radius: 5px;
+  padding: .5rem 1.5rem;
+}
+
+.services-card-btn button:hover {
+  background-color: rgb(17, 17, 17);
+  color: white;
+  border: none;
+}
+
+
+
+@media screen and (max-width:940px) {
+  .cards-flex {
+    flex-wrap: wrap;
+  }
+  
+  .services-card {
+    width: 40%;
+  }
+}
+
+
+@media screen and (max-width:700px) {
+  .cards-flex {
+    flex-wrap: wrap;
+  }
+  
+  .services-card {
+    width: 80%;
+  }
+}
+
+
+
+
+
+
+

@@ -7,6 +7,7 @@ import ContactForm from '../contact/ContactForm';
 // import HomeSection1 from '../homeSection1/HomeSection1';
 import ServicesMH from '../servicesMH/ServicesMH';
 import ServicesSA from '../servicesSA/ServicesSA';
+import Cards from '../servicesCards/Cards';
 
 
 
@@ -14,6 +15,7 @@ const home = () => {
   return (
     <>
     <Whoweare />
+    <Cards />
     <ServicesMH />
     <WeDo />
     <ServicesSA />

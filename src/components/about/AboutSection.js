@@ -26,7 +26,7 @@ const AboutSection = () => {
               through every stage of recovery. No matter where you’re located,
               you can reach out and get in touch with someone from our staff
               today
-            </p>{" "}
+            </p>
             <br />
             <p>
               We strives to make sobriety less stressful by focusing on sobriety
@@ -39,7 +39,7 @@ const AboutSection = () => {
               get in touch with someone from our staff today.
             </p>
             <br />
-            <hr />
+            <hr/>
             <br />
             <p>Certified by the State Department of Health Care Services <br/>Certification Number: 191114AP Expiration Date: 10/31/2023<br/><a href="https://data.chhs.ca.gov/dataset/sud-recovery-treatment-facilities" target="_blank" rel="noreferrer">(View License & Certification Information here )</a></p>
             <div className="license-img">

@@ -40,7 +40,7 @@ const ContactForm = () => {
 
     <div className="contact2-header contact2-container">
         <h1>DO YOU NEED URGENT HELP?</h1>
-        <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
+        <p>Our Addiction and Recovery Support team is available to assist you.</p>
     </div>
 
 <div class="contact2-container">

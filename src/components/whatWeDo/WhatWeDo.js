@@ -2,7 +2,7 @@ import React from "react";
 import "./Whatwedo.css";
 import Fade from 'react-reveal/Fade';
 
-import wrapper1 from "../../assets/wrapper1-min.jpg";
+import wrapper1 from "../../assets/wrapper1-min.png";
 
 const WhatWeDo = () => {
   return (
@@ -33,7 +33,11 @@ const WhatWeDo = () => {
             </p>
             </Fade>
             <br />
-</div>
+      </div>
+
+
+
+      <div className="wwd-flex">
           <Fade left>
           <div className="wrapper-content-left">
             <img src={wrapper1} alt="nurse" loading="lazy" />
@@ -56,6 +60,9 @@ const WhatWeDo = () => {
             </p>
           </div>
           </Fade>
+      </div>
+
+
         </div>
       </div>
     </>
