@@ -5,11 +5,10 @@
     width: 100%;
     height: auto;
     background-color: var(--primary-color);
-    padding: 5rem 0;
 }
 
 .servicesSA-content {
-    padding: 5rem 0;
+    padding: 3rem 1rem;
 }
 
 .servicesSA-header {
@@ -31,7 +30,6 @@
     color: rgb(255, 136, 0);
     font-size: 1rem;
     letter-spacing: 5px;
-    padding: 1rem;
 }
 
 .servicesSA h2 {
@@ -41,7 +39,7 @@
 
 .servicesSA p {
     color: white;
-    padding: 0 1rem;
+    padding: 1rem;
 }
 
 .servicesSA-flex {

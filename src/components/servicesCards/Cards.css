@@ -38,8 +38,6 @@
   font-size: 1.2rem;
   text-align: center;
   color: rgb(18, 19, 19);
-  letter-spacing: 2px;
-  font-family: 'Instrument Serif', serif;
 }
 
 .main-cards-header span {
@@ -50,7 +48,6 @@
 
 .main-cards-header h1 {
   text-align: center;
-  font-family: 'Instrument Serif', serif;
   font-size: 1.5rem;
   color: rgb(12, 12, 12);
   letter-spacing: 5px;
