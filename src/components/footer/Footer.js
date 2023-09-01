@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import logo from "../../assets/nav-logo.png";
-// import DHCS from "../../assets/DHCS-logo.png";
+import DHCS from "../../assets/DHCS-logo.png";
 
 import "./FooterStyles.css";
 
@@ -167,36 +167,16 @@ const Footer = () => {
 
 
 
-
-
-
-
-
-            {/* <div className="license">
+            <div className="license col">
               <h3>Licensed by the State Department of Health Care Services</h3>
-              <p>
-                License Number: 191057BP <br />
-                Expiration Date: 6 / 30 / 2023{" "}
-              </p>
+              <p>License Number: 191057BP <br />Expiration Date: 6 / 30 / 2023
               <br />
-
-              <a
-                href="https://data.chhs.ca.gov/dataset/sud-recovery-treatment-facilities"
-                target="_blank"
-                rel="noreferrer"
-              >
-                ( View License & Certification Information here ).
-              </a>
-              <div>
-                <img
-                  src={DHCS}
-                  width="300px"
-                  height="150px"
-                  alt="Joser Forever Logo"
-                  loading="lazy"
-                />
+              <a href="https://data.chhs.ca.gov/dataset/sud-recovery-treatment-facilities" target="_blank" rel="noreferrer">(View License & Certification Information here )</a>
+              </p>
+              <div className="license-img">
+                  <img src={DHCS} alt="DHCS Logo" loading="lazy"/>
               </div>
-            </div> */}
+            </div>
 
           </div>
 

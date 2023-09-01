@@ -3,7 +3,7 @@ import "./Whoweare.css";
 import Fade from 'react-reveal/Fade';
 
 import { BsCheckLg } from "react-icons/bs";
-import HomeSection2Image from "../../assets/whoWeAre1-min.jpg";
+import HomeSection2Image from "../../assets/whoWeAre1-min.png";
 
 const Whoweare = () => {
   return (

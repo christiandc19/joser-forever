@@ -6,17 +6,7 @@
     height: auto;
     position: relative;
     background: var(--primary-color)
-    /* background: linear-gradient(0deg, rgba(154,34,195,0.8785889355742297) 0%, rgba(130,45,253,1) 100%);    padding: 3rem 0; */
 }
-
-/* .footer:before {
-    content:'';
-    position: absolute;
-    background: url('../../assets/footer-bg.jpg')no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-} */
 
 .footer .container {
     display: flex;
@@ -68,15 +58,27 @@
     text-transform: uppercase;
     text-align: center;
     color: white;
+    font-size: 1rem;
 }
 
 
 .footer .license p {
     color: white;
+    font-size: 14px;
 }
 
+.footer .col a {
+    color: white;
+    font-size: 12px;
+}
+
+
+.license-img {
+    width: 150px;
+    margin: auto;
+}
 .footer .license img {
-    margin: 1rem 0;
+    width: 100%;
 }
 
 
@@ -112,25 +114,6 @@
     color: #333;
     outline: var(--primary-color);
     box-shadow: 0 0 8px 0 var(--primary-dark);
-}
-
-.footer form .mail-icon {
-    position: absolute;
-    font-size: 1.4rem;
-    margin: 1rem;
-    right: .2rem;
-    top: 3.8rem;
-    color: #aaa;
-    cursor: pointer;
-}
-
-.footer form .social-icon {
-    margin: 1rem 1rem 1rem 0;
-    padding: .6rem;
-    background-color: var(--primary-color);
-    border-radius: 4px;
-    color: #f8f8f8;
-    font-size: 3rem;
 }
 
 
