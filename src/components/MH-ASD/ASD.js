@@ -14,7 +14,7 @@ const ASD = () => {
             </div>
                 <div className="cocaine-content">
                     <Fade top>
-                    <h3>- MENTAL HEALTH</h3>
+                    <h3>MENTAL HEALTH</h3>
                     <h1>ACUTE STRESS DISORDER</h1>
                     </Fade>
             </div>

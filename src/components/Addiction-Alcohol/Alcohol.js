@@ -1,10 +1,7 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
-
 import './Alcohol.css'
-
 import Wave from '../../assets/waves.svg'
-
 
 const Alcohol = () => {
     return (
@@ -13,10 +10,10 @@ const Alcohol = () => {
             <div className='hero-divider'>
                 <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
             </div>
-                <div className="sa-content">
+
+                <div className="alcohol-content">
                     <Fade top>
-                    <h3>- ADDICTION</h3>
-                    <h1>ALCOHOLISM</h1>
+                    <h1>ALCOHOL ADDICTION</h1>
                     </Fade>
             </div>
         </div>

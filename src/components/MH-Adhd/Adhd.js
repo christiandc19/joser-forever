@@ -14,7 +14,7 @@ const Adhd = () => {
             </div>
                 <div className="adhd-content">
                     <Fade top>
-                    <h3>- MENTAL HEALTH</h3>
+                    <h3>MENTAL HEALTH</h3>
                     <h1>ATTENTION DEFICIT HYPERACTIVITY DISORDER</h1>
                     </Fade>
             </div>

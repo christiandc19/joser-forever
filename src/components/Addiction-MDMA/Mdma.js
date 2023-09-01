@@ -8,14 +8,13 @@ import Wave from '../../assets/waves.svg'
 
 const Fentanyl = () => {
     return (
-        <div className='mdma submenu'>
+        <div className='mdma '>
             <div className='hero-divider'>
                 <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
             </div>
                 <div className="mdma-content">
                     <Fade top>
-                    <h3>- ADDICTION</h3>
-                    <h1>MDMA</h1>
+                    <h1>MDMA ADDICTION</h1>
                     </Fade>
             </div>
         </div>
