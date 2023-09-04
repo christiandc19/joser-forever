@@ -81,9 +81,11 @@ const ContactForm = () => {
         <div class="input-box">
         <input type="text" name='email' placeholder='Your Phone' required />
         </div>
+        <div class="input-box">
+        <input type="text" name='subject' placeholder='Subject' required />
+        </div>
         <div class="input-box message-box">
         <textarea name="message" rows="4" placeholder="How can we help?" required ></textarea>
-
         </div>
         <input className="contact-btn" type="submit" value="Submit" />
 
