@@ -14,12 +14,13 @@
 }
 
 .top-flex-item {
+  width: 400px;
   display: flex;
   justify-content: center;
   gap: 1rem;
   background-color: rgba(243, 239, 239, 0.336);
   box-shadow: -1px 0px 15px -4px rgba(0,0,0,0.25);
-  padding: 1rem 3rem;
+  padding: 1rem;
 }
 
 .top-flex-item:hover {
@@ -28,6 +29,7 @@
 
 .top-flex-icon {
   width: 200px;
+  margin: auto;
 }
 
 .top-flex-icon img{
@@ -67,11 +69,14 @@
   .top-flex {
     margin: 0 2rem;
   }
+
+
+  .top-flex-item {
+    width: 100%;
+  }
+  
+
 }
-
-
-
-
 
 
 

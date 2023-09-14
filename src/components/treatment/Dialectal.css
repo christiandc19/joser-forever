@@ -19,6 +19,7 @@
 
   .dialectal-content {
     padding: 1rem 0;
+    width: 100%;
   }
 
   .dialectal-flex {
@@ -29,9 +30,9 @@
   }
 
   .dialectal-left {
-    width: 55%;
+    width: 50%;
     margin: auto;
-    padding: 1rem;
+    padding: 2rem;
   }
 
   .dialectal-left h1 {
@@ -46,7 +47,7 @@
     text-align: justify;  }
 
   .dialectal-right {
-    padding: 1rem;
+    padding: 2rem;
     width: 400px;
     margin: auto;
   }

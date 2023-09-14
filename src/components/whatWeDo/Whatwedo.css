@@ -20,12 +20,16 @@
 
 .whatWeDo-header {
     text-align: center;
-    padding: 2rem 0 0 0;
+    padding: 2rem 1rem;
 }
 
 .wwd-flex {
     display: flex;
     justify-content: center;
+}
+
+.wrapper-content {
+    width: 100%;
 }
 
 .wrapper-content-left {

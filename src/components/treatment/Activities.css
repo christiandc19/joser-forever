@@ -62,6 +62,10 @@
         width: 100%;
       }
 
+      .activities-flex-right {
+        width: 90%;
+      }
+
       .activities-flex-left ul {
         margin: auto;
       }

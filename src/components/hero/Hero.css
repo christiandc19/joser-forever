@@ -11,6 +11,7 @@
 .hero-flex {
   display: flex;
   padding: 1rem;
+  width: 100%;
 }
 
 #content {
@@ -18,6 +19,7 @@
     position: relative;
     text-align: center;
     padding: 32rem 0 8rem 0;    
+    width: 100%;
   }
 
   .slideshow h1 {
@@ -62,7 +64,6 @@
     z-index: 0;
     list-style: none;
     margin: 0;
-    padding: 0;
   }
   
 
@@ -130,19 +131,23 @@
   
 
   .slideshow-caption {
+    width: 90%;
     position: absolute;
     top: 22%;
-    width: 100%;
+    left: 5%;
+    right: 5%;
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 4rem;
   }
 
   .slideshow-caption h1 {
     color: white;
     font-size: 8rem;
+    line-height: 4rem;
   }
 
   .slideshow-caption h2 {
+    padding-top: 1rem;
     color: white;
     font-size: 2rem;
     font-family: 'Gothic A1', sans-serif;
@@ -199,12 +204,15 @@
       padding: 38rem 0 2rem 0;    
     }
 
+    .slideshow-caption {
+      padding: 1rem;
+    }
     .slideshow-caption h2 {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
 
     .slideshow-caption h1 {
-      font-size: 5rem;
+      font-size: 4rem;
     }
 
   }

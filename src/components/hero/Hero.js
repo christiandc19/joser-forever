@@ -12,6 +12,7 @@ const Hero = () => {
         <div class="row">
           <div class="col-lg-12">
             <div id="content" className="container">
+              
               <div className="hero-flex">
                 <div className="hero-flexItem hero-flexItem1">
                   <div className="sub-flex">

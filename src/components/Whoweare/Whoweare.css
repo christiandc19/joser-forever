@@ -19,6 +19,7 @@
 .homeSection2 {
     padding:  1rem;
     margin: 2rem 0;
+    width: 100%;
 }
 
 .homeSection2-content {
@@ -28,8 +29,10 @@
 }
 
 .homeSection2-right {
-    width: 50%;
+    width: 500px;
     text-align: center;
+    margin: auto;
+    padding: 1rem;
 }
 
 .homeSection2-right img {
@@ -39,7 +42,7 @@
 
 .homeSection2-left {
     width: 60%;
-    padding: 2rem;
+    padding: 1rem;
     margin: auto;
 }
 

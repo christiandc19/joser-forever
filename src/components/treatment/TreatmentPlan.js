@@ -40,10 +40,13 @@ const TreatmentPlan = () => {
                     assessment. It will include: challenges that the client may
                     encounter during recovery process, clear methods of navigating
                     obstacles in recovery, action steps to be taken by the program
-                    and/or client to overcome the challenges of recovery.
+                    and/or client to overcome the challenges of recovery.                 
+                    <br />
+                    <br />
+                    Psychodynamic therapy is based on the following key principles:
             </p>
 
-            <p>Psychodynamic therapy is based on the following key principles:</p>
+            
 
                         <br />
                             <ul>
