@@ -43,6 +43,9 @@ import Schizophrenia from './routes/SchizophreniaPage';
 
 
 import Jobs from './routes/JOBS';
+import Php from './routes/PHP';
+import Iop from './routes/IOP';
+import Op from './routes/OP';
 
 
 ReactDOM.render(
@@ -79,6 +82,9 @@ ReactDOM.render(
       <Route exact path='/schizophrenia' element={<Schizophrenia />} />
 
       <Route exact path='/jobs' element={<Jobs />} />
+      <Route exact path='/php' element={<Php />} />
+      <Route exact path='/iop' element={<Iop />} />
+      <Route exact path='/op' element={<Op />} />
 
       <Route exact path='/treatment' element={<TreatmentPage />} />
 

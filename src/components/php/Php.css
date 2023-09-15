@@ -1,0 +1,46 @@
+
+.php {
+    width: 100%;
+    height: 70vh;
+    background: rgba(0, 0, 0, 0.39);
+    position: relative;
+  }
+  
+  .php:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/php-hero.jpg') no-repeat center top/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+.php-content {
+    position: absolute;
+    bottom: 20%;
+    padding: 1rem;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.php h1 {
+    color: white;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+    
+    .php h1 {
+        font-size: 2.5rem;
+    }
+
+    
+    }
