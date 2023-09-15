@@ -19,12 +19,8 @@
 
   .treatmentPlan-content {
     padding: 1rem 0;
-    width: 100%;
   }
  
-  .treatment-header {
-    padding: 1rem;
-  }
 
   .treatment-header p {
     text-align: center;
@@ -61,9 +57,8 @@
   }
 
   .treatmentPlan-left {
-    width: 420px;
-    margin: auto;
     padding: 1rem;
+    width: 420px;
   }
 
   .treatmentPlan-left img {

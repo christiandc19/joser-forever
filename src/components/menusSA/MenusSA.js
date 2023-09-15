@@ -23,8 +23,7 @@ const MenusSA = () => {
     <>
       <div className="mh-cards-header container">
         <h1>
-          {" "}
-          Joser Forever TREATMENT CENTER OFFERS VARIOUS SUBSTABCE ABUSE PROGRAMS{" "}
+          JOSER FOREVER TREATMENT CENTER OFFERS VARIOUS SUBSTABCE ABUSE PROGRAMS{" "}
         </h1>
         <p>
           There are numerous options for addressing concerns related to
@@ -40,8 +39,6 @@ const MenusSA = () => {
       {/* Mental Health Thumbnails */}
 
       <div className="top-flex">
-
-        
         <div className="top-flex-item">
           <div className="top-flex-icon">
             <img src={Icon1} alt="Mental Health" loading="lazy" />
@@ -67,7 +64,6 @@ const MenusSA = () => {
             </LinkRoll>
           </div>
         </div>
-
 
         <div className="top-flex-item">
           <div className="top-flex-icon">

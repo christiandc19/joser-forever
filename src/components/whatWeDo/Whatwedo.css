@@ -1,51 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
 .wrapper1 {
-    width: 100%;
-    height: auto;
-    background: rgba(0, 0, 0, 0);
-    position: relative;
-  }
-  
-  .wrapper1:before {
-    content: '';
-    position: absolute;
-    background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: 0.04;
-  }
-
-
-.whatWeDo-header {
-    text-align: center;
-    padding: 2rem 1rem;
-}
-
-.wwd-flex {
-    display: flex;
-    justify-content: center;
+    padding: 5rem 0 5rem 0;
+    background: #ffffff;
 }
 
 .wrapper-content {
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.whatWeDo-header {
+    text-align: center;
+    padding: 1rem;
 }
 
 .wrapper-content-left {
-    width: 500px;
-    margin: auto;
-    padding: 1rem;
+    width: 50%;
+    text-align: center;
 }
 
 .wrapper-content-left img {
-    width: 100%;
+    width: 80%;
+    border-radius: 1rem;
 }
 
 .wrapper-content-right {
-    width: 50%;
+    width: 600px;
     margin: auto;
-    padding: 1rem;
+    padding: 0 2rem;
 }
 
 
@@ -68,12 +52,7 @@
 
 
 
-@media screen and (max-width:940px)  {
-
-    .wwd-flex {
-        flex-wrap: wrap;
-    }
-
+@media screen and (max-width:1250px)  {
     .wrapper-content-right {
         width: 100%;
         padding: 1rem 2rem;
@@ -87,9 +66,14 @@
         font-size: 2rem;
     }
 
-    .wrapper-content-left {
-        width: 90%;
-    }
-
-
 }
+
+@media screen and (max-width:940px) {
+    .wrapper-content-left {
+        width: 100vw;
+    }
+    .wrapper-content-left img {
+        padding: 2rem;
+    }
+}
+

@@ -12,7 +12,7 @@ const Heroin = () => {
     <>
     <Navbar /> 
     <HEROIN />
-    <HeroinSection />
+    <HeroinSection />    
     <Contact2 />
     <Footer />
      </>

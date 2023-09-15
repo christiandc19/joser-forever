@@ -7,7 +7,7 @@ import OpiateSection from '../components/Addiction-Opiate/OpiateSection'
 import Contact2 from '../components/contact/Contact2'
 
 
-const Opiate = () => {
+const Fentanyl = () => {
   return (
     <>
     <Navbar /> 
@@ -19,4 +19,4 @@ const Opiate = () => {
   )
 }
 
-export default Opiate
+export default Fentanyl

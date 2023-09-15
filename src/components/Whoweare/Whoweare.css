@@ -1,25 +1,6 @@
 .homeSection2 {
-    width: 100%;
-    height: auto;
-    background: rgba(0, 0, 0, 0);
-    position: relative;
-  }
-  
-  .homeSection2:before {
-    content: '';
-    position: absolute;
-    background: url('../../assets/section-bg.jpg') no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: 0.04;
-  }
-  
-
-.homeSection2 {
     padding:  1rem;
     margin: 2rem 0;
-    width: 100%;
 }
 
 .homeSection2-content {
@@ -29,10 +10,8 @@
 }
 
 .homeSection2-right {
-    width: 500px;
+    width: 50%;
     text-align: center;
-    margin: auto;
-    padding: 1rem;
 }
 
 .homeSection2-right img {
@@ -42,7 +21,7 @@
 
 .homeSection2-left {
     width: 60%;
-    padding: 1rem;
+    padding: 2rem;
     margin: auto;
 }
 
@@ -54,9 +33,9 @@
 }
 
 .homeSection2-content h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 0 0 1rem 0;
-    color: #111111;
+    color: #011803;
 }
 
 .homeSection2-content p {
@@ -83,7 +62,7 @@
 
     .homeSection2 {
         padding: 1rem 1rem;
-        margin: 1rem 0 7rem  0;
+        margin: 1rem 0;
     }
 
     .homeSection2-right {

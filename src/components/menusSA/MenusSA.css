@@ -14,13 +14,13 @@
 }
 
 .top-flex-item {
-  width: 400px;
+  width: 45%;
   display: flex;
   justify-content: center;
   gap: 1rem;
   background-color: rgba(243, 239, 239, 0.336);
   box-shadow: -1px 0px 15px -4px rgba(0,0,0,0.25);
-  padding: 1rem;
+  padding: 1rem 3rem;
 }
 
 .top-flex-item:hover {
@@ -34,6 +34,10 @@
 
 .top-flex-icon img{
   width: 100%;
+}
+
+.top-flex-text {
+  margin: auto;
 }
 
 .top-flex-text h1 {
@@ -70,13 +74,14 @@
     margin: 0 2rem;
   }
 
-
   .top-flex-item {
-    width: 100%;
+    width: 90%;
   }
-  
-
 }
+
+
+
+
 
 
 

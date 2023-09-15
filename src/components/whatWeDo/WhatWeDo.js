@@ -33,11 +33,7 @@ const WhatWeDo = () => {
             </p>
             </Fade>
             <br />
-      </div>
-
-
-
-      <div className="wwd-flex">
+</div>
           <Fade left>
           <div className="wrapper-content-left">
             <img src={wrapper1} alt="nurse" loading="lazy" />
@@ -60,9 +56,6 @@ const WhatWeDo = () => {
             </p>
           </div>
           </Fade>
-      </div>
-
-
         </div>
       </div>
     </>

@@ -20,7 +20,7 @@ const  panicDisorderSection = () => {
                     </p>
                   </div>
 
-                  <div className='anxiety-section-right'>
+                  <div className='panic-section-right'>
                     <img src='https://sunset-rehab.s3.us-west-1.amazonaws.com/meth-addiction.jpg' alt="activities" />
                   </div>
 

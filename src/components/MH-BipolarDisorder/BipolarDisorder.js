@@ -1,20 +1,13 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
-
 import './BipolarDisorder.css'
-
-import Wave from '../../assets/waves.svg'
-
 
 const BipolarDisorder = () => {
     return (
-        <div className='BipolarDisorder submenu'>
-            <div className='hero-divider'>
-                <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
-            </div>
-                <div className="BipolarDisorder-content">
+        <div className='bipolar submenu'>
+
+                <div className="bipolar-content">
                     <Fade top>
-                    <h3>MENTAL HEALTH</h3>
                     <h1>BIPOLAR DISORDER</h1>
                     </Fade>
             </div>

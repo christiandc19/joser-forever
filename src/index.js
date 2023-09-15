@@ -6,8 +6,10 @@ import App from './App';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 import TreatmentPage from './routes/TreatmentPage'
+import TestimonialPage from './routes/TestimonialPage'
 import MissionPage from './routes/MissionPage'
 import AboutPage from './routes/AboutPage'
+import ResidencePage from './routes/ResidencePage'
 import InsurancePage from './routes/InsurancePage'
 import ContactPage from './routes/ContactPage'
 
@@ -41,11 +43,6 @@ import Schizophrenia from './routes/SchizophreniaPage';
 
 
 import Jobs from './routes/JOBS';
-
-import Php from './routes/PHP';
-import Iop from './routes/IOP';
-import Op from './routes/OP';
-
 
 
 ReactDOM.render(
@@ -83,17 +80,14 @@ ReactDOM.render(
 
       <Route exact path='/jobs' element={<Jobs />} />
 
-      <Route exact path='/php' element={<Php />} />
-      <Route exact path='/iop' element={<Iop />} />
-      <Route exact path='/op' element={<Op />} />
-
-
       <Route exact path='/treatment' element={<TreatmentPage />} />
 
       <Route exact path='/mission' element={<MissionPage />} />
       <Route exact path='/about-us' element={<AboutPage />} />
+      <Route exact path='/testimonials' element={<TestimonialPage />} />
 
 
+      <Route exact path='/residence' element={<ResidencePage />} />
       <Route exact path='/insurance' element={<InsurancePage />} />
       <Route exact path='/contact' element={<ContactPage />} />
     </Routes>

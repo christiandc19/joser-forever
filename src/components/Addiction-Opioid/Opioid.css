@@ -2,27 +2,32 @@
 
 .opioid {
     width: 100%;
-    height: 80vh;
-    background: #00000056;
+    height: 100vh;
+    background: #00000048;
     position: relative;
   }
   
   .opioid:before {
     content: '';
     position: absolute;
-    background: url('../../assets/addiction-submenu-bg.jpg') no-repeat center center/cover;
-    height: 80vh;
+    background: url('../../assets/sa.jpg') no-repeat center center/cover;
+    height: 100%;
     width: 100%;
     z-index: -1;
   }
   
 
+.opioid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .opioid .opioid-content {
-    width: max-content ;
+    display: block;
     position: absolute;
     top: 40%;
-    right: 5%;
+    left: 5%;
     padding: 1rem;
 }
 
@@ -30,22 +35,21 @@
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    text-align: center;
 }
-
-
 
 /* MEDIA QUERIES */
 
 @media screen and (max-width:940px) {
 
-    .opioid .opioid-content {
-        width: 100% ;
-        right: 0%;
-    }
-    
-    .opioid h1 {
-        font-size: 3rem;
-    }
+.opioid h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.opioid .opioid-content {
+    width: 100%;
+    top: 60%;
+    left: 0%;
+}
 
 }

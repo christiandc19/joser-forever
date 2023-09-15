@@ -2,12 +2,12 @@
 
 .treatment {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: #0a0a0a71;
+    background: #0a0a0a69;
   }
   
   .treatment:before {
@@ -23,6 +23,7 @@
     display: block;
     position: absolute;
     top: 40%;
+    right: 25%;
     padding: 1rem;
 }
 
@@ -53,6 +54,11 @@
 .treatment h1 {
     font-size: 3rem;
     text-align: center;
+}
+
+.treatment .treatment-content {
+    width: 100%;
+    right: 0%;
 }
 
 
