@@ -18,12 +18,12 @@
   }
 
   .dialectal-content {
-    padding: 1rem 0;
+    padding: 1rem;
+    width: 100%;
   }
 
   .dialectal-flex {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
   }
@@ -57,10 +57,20 @@
   }
 
   @media  screen and (max-width:940px) {
+    .dialectal-flex {
+      flex-wrap: wrap;
+    }
+
     .dialectal-left {
         width: 100%;
       }
-      .dialectal-left h1, .dialectal-left p {
+
+      .dialectal-right {
+        width: 100%;
+      }
+
+
+      .dialectal-left h1 {
         text-align: center;
       }
 

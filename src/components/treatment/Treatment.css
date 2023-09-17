@@ -39,12 +39,6 @@
     color: var(--primary-color);
 }
 
-.treatment-wrap .treatment-title h4 {
-    font-family: 'Montserrat', sans-serif;
-    color: var(--primary-color);
-    text-align: left;
-}
-
 
 
 /* MEDIA QUERIES - HERO */

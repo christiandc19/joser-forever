@@ -18,12 +18,12 @@
   }
 
   .psychodynamic-content {
-    padding: 1rem 0;
+    padding: 1rem;
+    width: 100%;
   }
 
   .psychodynamic-flex {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
   }
@@ -38,6 +38,7 @@
     padding: 1rem 0;
     text-align: center;
   } 
+
   .psychodynamic-right p {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -61,11 +62,12 @@
   }
 
   @media  screen and (max-width:940px) {
+
     .psychodynamic-right {
         width: 100%;
       }
 
-      .psychodynamic-right h1, .psychodynamic-right p {
+      .psychodynamic-right h1 {
         text-align: center;
       }
 

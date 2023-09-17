@@ -18,12 +18,12 @@
   }
 
   .cognitive-content {
-    padding: 1rem 0;
+    padding: 1rem;
+    width: 100%;
   }
 
   .cognitive-flex {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
   }
@@ -66,7 +66,11 @@
         width: 100%;
       }
 
-      .cognitive-right h1, .cognitive-right p {
+      .cognitive-left {
+        width: 90%;
+      }
+
+      .cognitive-right h1 {
         text-align: center;
       }
 

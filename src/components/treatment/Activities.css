@@ -20,11 +20,11 @@
   .actvities-content {
     margin: 1rem 0;
     padding: 2rem 0;
+    width: 100%;
   }
 
   .activities-flex {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
   }
@@ -50,6 +50,7 @@
   .activities-flex-right {
     padding: 1rem;
     width: 450px;
+    margin: auto;
   }
 
   .activities-flex-right img {
@@ -57,13 +58,22 @@
     border-radius: 1rem;
   }
 
-  @media  screen and (max-width:1200px) {
+  @media  screen and (max-width:940px) {
+
+    .activities-flex {
+      flex-wrap: wrap;
+    }
+
     .activities-flex-left {
         width: 100%;
       }
 
+      .activities-flex-right {
+        width: 100%;
+      }
+
       .activities-flex-left ul {
-        margin: auto;
+        margin: auto 0;
       }
 
   }

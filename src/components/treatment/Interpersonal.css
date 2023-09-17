@@ -18,12 +18,12 @@
   }
 
   .interpersonal-content {
-    padding: 1rem 0;
+    padding: 1rem;
+    width: 100%;
   }
 
   .interpersonal-flex {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
   }
@@ -57,11 +57,20 @@
     border-radius: 1rem;
   }
 
-  @media  screen and (max-width:1200px) {
+  @media  screen and (max-width:940px) {
+
+    .interpersonal-flex {
+      flex-wrap: wrap;
+
+    }
     .interpersonal-left {
         width: 100%;
       }
-      .interpersonal-left h1, .interpersonal-left p {
+
+      .interpersonal-right {
+        width: 100%;
+      }
+      .interpersonal-left h1{
         text-align: center;
       }
 
