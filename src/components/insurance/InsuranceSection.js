@@ -7,10 +7,6 @@ import Beacon from '../../assets/beacon.png'
 import Bluecross from '../../assets/bluecross.png'
 import Cigna from '../../assets/cigna.png'
 import Horizon from '../../assets/horizon.png'
-import UMR from '../../assets/umr.png'
-import United from '../../assets/united-healthcare.png'
-import Optima from '../../assets/optima.png'
-import Optum from '../../assets/optum.png'
 import Anthem from '../../assets/anthem.png'
 
 import Group from '../../assets/group.jpg'
@@ -57,28 +53,6 @@ const InsuranceSection = () => {
                                 </div>
                             </Fade>
 
-                            <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <img src={UMR} width="640" height="100" alt="UMR Insurance Logo" loading="lazy"/>
-                                </div>
-                            </Fade>
-
-                            <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <img src={United} width="640" height="100" alt="United Insurance Logo" loading="lazy"/>
-                                </div>
-                            </Fade>
-
-                            <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <img src={Optima} width="640" height="100" alt="Optima Health Insurance Logo" loading="lazy"/>
-                                </div>
-                            </Fade>
-                            <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <img src={Optum} width="640" height="100" alt="Optum Health Insurance Logo" loading="lazy"/>
-                                </div>
-                            </Fade>
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
                                 <img src={Anthem} width="640" height="100" alt="Optum Health Insurance Logo" loading="lazy"/>

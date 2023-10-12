@@ -1,6 +1,6 @@
 import React from 'react'
 import './TreatmentPlan.css'
-import TREATMENTPLAN from "../../assets/treatment-plan.jpg";
+import TREATMENTPLAN from "../../assets/treatment-plan.webp";
 import { AiFillCheckCircle } from "react-icons/ai";
 
 const TreatmentPlan = () => {
