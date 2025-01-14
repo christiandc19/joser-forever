@@ -59,7 +59,7 @@ const Hero = () => {
                     duration={500}
                     >
                     <Link to="/contact">
-                        <button> Call Us</button>
+                        <button> Call Us </button>
                     </Link>
                 </LinkRoll>              </div>
             </div>

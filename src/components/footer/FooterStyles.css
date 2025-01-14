@@ -5,8 +5,10 @@
     width: 100%;
     height: auto;
     position: relative;
-    background: var(--primary-color)
+    background-color: #005f59;
 }
+
+
 
 .footer .container {
     display: flex;
@@ -16,14 +18,6 @@
     padding: 3rem 0;
 }
 
-.logo-footer {
-    width: 250px;
-}
-
-.logo-footer  img {
-    width: 100%;
-}
-
 .footer .top {
     width: 100%;
     padding: 1rem;
@@ -31,10 +25,15 @@
     justify-content: space-between;
 }
 
-.footer .top .logo-footer {
-    display: flex;
-    align-items: center;
-}
+.logo-footer {
+    width: 150px;
+  }
+  
+  .logo-footer img {
+    margin-left: 1rem;
+    width: 100%;
+  }
+  
 
 .footer .top .footer-icon {
     font-size: 3rem;
@@ -48,9 +47,13 @@
     color: white;
 }
 
+.footer h2 {
+    font-size: 2rem;
+}
 
-.col {
-    width: 300px;
+.footer h3 {
+    color: white;
+    font-size: 1rem;
 }
 
 .footer .col-container {
@@ -61,26 +64,18 @@
     width: 100%;
 }
 
-.footer h3 {
-    margin: 2rem 0 1rem 0;
-    text-transform: uppercase;
+.col {
     text-align: center;
-    color: white;
+    width: 30%;
 }
 
-
-.footer .license p {
-    color: white;
+.footer h3 {
+    margin: 1rem 0 2rem 0;
+    text-transform: uppercase;
+    color: orange;
+    font-weight: 300;
 }
 
-.footer .license img {
-    margin: 1rem 0;
-}
-
-
-.footer .license a:hover {
-    color: rgb(8, 138, 245);
-}
 
 .footer p {
     font-family: 'Montserrat', sans-serif;
@@ -112,23 +107,42 @@
     box-shadow: 0 0 8px 0 var(--primary-dark);
 }
 
-.footer form .mail-icon {
-    position: absolute;
-    font-size: 1.4rem;
-    margin: 1rem;
-    right: .2rem;
-    top: 3.8rem;
-    color: #aaa;
-    cursor: pointer;
+
+.license {
+    width: 100%;
+    text-align: center;
 }
 
-.footer form .social-icon {
-    margin: 1rem 1rem 1rem 0;
-    padding: .6rem;
-    background-color: var(--primary-color);
-    border-radius: 4px;
-    color: #f8f8f8;
-    font-size: 3rem;
+
+
+.license h3 {
+    text-align: center;
+}
+
+.license p {
+    text-align: center;
+    color: white;
+}
+
+.license a {
+    text-align: center;
+    color: white;
+}
+
+.license a:hover {
+    text-align: center;
+    color: orange;
+}
+
+
+.license-image {
+    width: 150px;
+    margin: auto;
+    padding: .5rem;
+}
+
+.footer .license img {
+    width: 100%;
 }
 
 
@@ -142,6 +156,25 @@
         height: 100%;
     }
 
+    .footer .col-container {
+        grid-template-columns: 3fr 3fr 3fr ;
+    }
+
+    .footer form {
+        grid-column: 1 / span 4;
+        text-align: center;
+    }
+
+    .footer h1, .footer h2, .footer h3, .footer p {
+        text-align: center;
+    }
+
 }
 
 
+@media screen and (max-width: 700px) {
+    .col {
+        text-align: center;
+        width: 100%;
+    }
+}

@@ -53,7 +53,7 @@ const Navbar = () => {
           </div>
 
           <ul className={nav ? "nav-menu active" : "nav-menu"}>
-            <li><Link to="/">Home</Link></li>
+            <li className="hover-underline-animation"><Link to="/">Home</Link></li>
             <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows"><Link to={`/substance-abuse`}>Addiction <AiOutlineCaretDown /></Link>
               <ul className={boxClassSubMenu.join(" ")} id="submenu-item">
                 <li><NavLink onClick={toggleClass} activeClassName="is-active" to={`/alcohol`}>Alcohol</NavLink></li>
@@ -87,12 +87,12 @@ const Navbar = () => {
               </ul>
             </li>
 
-            <li><Link to="/treatment">Treatment</Link></li>
-            <li><Link to="/about-us">About Us</Link></li>
-            <li><Link to="/jobs">Jobs Program</Link></li>
-            <li><Link to="/insurance">Insurance</Link></li>
-            <li><Link to='/community-links'>Community Links</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            <li className="hover-underline-animation"><Link to="/treatment">Treatment</Link></li>
+            <li className="hover-underline-animation"><Link to="/about-us">About Us</Link></li>
+            <li className="hover-underline-animation"><Link to="/jobs">Jobs Program</Link></li>
+            <li className="hover-underline-animation"><Link to="/insurance">Insurance</Link></li>
+            <li className="hover-underline-animation"><Link to='/community-links'>Community Links</Link></li>
+            <li className="hover-underline-animation"><Link to="/contact">Contact</Link></li>
           </ul>
 
           <div className="hamburger" onClick={handleNav}>

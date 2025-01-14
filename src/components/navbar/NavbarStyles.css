@@ -71,7 +71,7 @@
 }
 
   .menu-item .sub__menus li a {
-    color: #353535;
+    color: #ffffff;
     font-size: 13px;
     padding: -1rem ;
   }
@@ -84,12 +84,12 @@
 .sub__menus {
     position: absolute;
     display: none;
-    background: white;
-    border: 1px solid lavender;
-    width: auto;
+    background: #005f59ea;
+    width: 250px;
     padding: 2px 0 0 0;
     margin-top: 6px;
     z-index: 1000;
+    border-radius: 5px;
   }
 
   /* -----------------------------------------------------> DROPDOWN ARROW */
@@ -99,6 +99,30 @@
     font-size: 12px;
   }
 
+
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 
   
 @media screen and (max-width: 1200px) {

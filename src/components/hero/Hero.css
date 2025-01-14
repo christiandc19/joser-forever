@@ -162,13 +162,15 @@
 
 #content .hero-btn button {
   background-color: var(--primary-color);
-  border-radius: 10px;
+  border-radius: 5px;
   letter-spacing: 3px;
   text-transform: uppercase;
+  border: none;
+  transition: 0.3s;
 }
 
 #content .hero-btn button:hover {
-  background-color: rgba(255, 255, 255, 0.726);
+  background-color: rgb(255, 255, 255);
   color: var(--primary-color);
   border: none;
 }
