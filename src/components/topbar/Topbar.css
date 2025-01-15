@@ -1,9 +1,10 @@
+/* Topbar Container */
 .topbar {
     width: 100%;
-    padding: .3rem;
+    padding: 0.3rem;
     background-color: #005f59;
     position: relative;
-
+    border-bottom: 1px solid rgba(255, 255, 255, 0.274);
 }
 
 .topbar .topbar-content {
@@ -15,6 +16,9 @@
 }
 
 .topbar .topbar-content p {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically align items */
+    gap: 0.5rem; /* Add space between icon and text */
     padding: 0 1rem;
     font-size: 14px;
 }
@@ -30,11 +34,12 @@
 }
 
 .topbar span {
-    color: rgba(36, 173, 24, 0.616);
+    color: rgba(255, 255, 255, 0.616);
     font-size: 16px;
     font-weight: bold;
 }
 
+/* Hide elements for smaller screens */
 @media screen and (max-width: 940px) {
     .topbar-hide {
         display: none;

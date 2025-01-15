@@ -56,7 +56,7 @@ const Navbar = () => {
             <li className="hover-underline-animation"><Link to="/">Home</Link></li>
             <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows"><Link to={`/substance-abuse`}>Addiction <AiOutlineCaretDown /></Link>
               <ul className={boxClassSubMenu.join(" ")} id="submenu-item">
-                <li><NavLink onClick={toggleClass} activeClassName="is-active" to={`/alcohol`}>Alcohol</NavLink></li>
+                <li ><NavLink onClick={toggleClass} activeClassName="is-active" to={`/alcohol`}>Alcohol</NavLink></li>
                 <li><NavLink onClick={toggleClass} activeClassName="is-active" to={`/cocaine`}>Cocaine</NavLink></li>
                 <li><NavLink onClick={toggleClass} activeClassName="is-active" to={`/fentanyl`}>Fentanyl</NavLink></li>
                 <li><NavLink onClick={toggleClass} activeClassName="is-active" to={`/heroin`}>Heroin</NavLink></li>

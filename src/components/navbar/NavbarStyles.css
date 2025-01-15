@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
-
 .navbar {
     width: 100%;
     height: auto;
@@ -76,10 +75,6 @@
     padding: -1rem ;
   }
 
-  .menu-item .sub__menus li a:hover {
-    color: rgb(255, 123, 0) !important;
-  }
-
 /* -----------------------------------------------------> SUB MENU */
 .sub__menus {
     position: absolute;
@@ -143,6 +138,28 @@
         justify-content: center;
         background: var(--primary-color);
         transition: 0.5s ease-in;
+    }
+
+    .menu-item .sub__menus li {
+      width: 90%;
+      border-bottom: 1px dashed rgba(0, 0, 0, 0.151);
+      text-align: center;
+      margin: auto;
+    }
+
+
+    .menu-item .sub__menus li a {
+      color: #005f59;
+      font-weight: 600;
+      padding: 0 2rem;
+
+    }
+
+    .sub__menus {
+      background: white;
+      width: 100%;
+      left: 0;
+      border-radius: 0px;
     }
 
     .navbar .active {
