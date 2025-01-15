@@ -4,13 +4,18 @@ import Fade from 'react-reveal/Fade';
 import ContactForm from "./ContactForm";
 import './Contact.css'
 // import Wave from '../../assets/waves.svg'
+import {Helmet} from "react-helmet";
 
 
 const Contact = () => {
 
     return (
       <>
-
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>CONTACT US - Joser Forever</title>
+            <link rel="canonical" href="https://joserforever.biz/contact" />
+        </Helmet>
 <div className='contact-hero main-menu'>
 {/* <div className='hero-divider'>
                 <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>

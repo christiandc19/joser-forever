@@ -86,7 +86,7 @@ const Footer = () => {
 
 
                     <div className="license">
-                        <h3>Licensed by the State Department of Health Care Services</h3>
+                        <h3>Certified by the State Department of Health Care Services</h3>
                         <p>Certification Number: 191114AP <br /> Expiration date: 10/31/2025</p>
                         <br />
                         <a href="https://data.chhs.ca.gov/dataset/sud-recovery-treatment-facilities"

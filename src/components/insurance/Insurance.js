@@ -1,5 +1,6 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
+import {Helmet} from "react-helmet";
 
 import './Insurance.css'
 // import Wave from '../../assets/waves.svg'
@@ -10,6 +11,11 @@ const Insurance = () => {
 
     return (
             <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>INSURANCE - Joser Forever</title>
+                <link rel="canonical" href="https://joserforever.biz/insurance" />
+            </Helmet>
             <div className='insurance main-menu'>
             {/* <div className='hero-divider'>
                 <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
@@ -20,9 +26,6 @@ const Insurance = () => {
                             </Fade>
                         </div>
                     </div>
-
-
-
             </>
     )
 

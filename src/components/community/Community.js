@@ -1,5 +1,6 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
+import {Helmet} from "react-helmet";
 
 import './Community.css'
 import CommuntiySection from '../community/CommunitySection'
@@ -8,6 +9,11 @@ import Contact2 from '../contact/Contact2'
 const Community = () => {
     return (
         <>
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>COMMUNITY - Joser Forever</title>
+            <link rel="canonical" href="https://joserforever.biz/community-links" />
+        </Helmet>
         <div className='community submenu'>
 
                 <div className="community-content">

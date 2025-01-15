@@ -1,6 +1,7 @@
 import React from "react";
 import { Link as LinkRoll } from "react-scroll";
 import { Link } from 'react-router-dom';
+import {Helmet} from "react-helmet";
 
 // import Fade from 'react-reveal/Fade';
 import "./Hero.css";
@@ -8,6 +9,12 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>HOME - Joser Forever</title>
+        <link rel="canonical" href="https://joserforever.biz/" />
+      </Helmet>
+
       <div class="hero ">
         <div class="row">
           <div class="col-lg-12">

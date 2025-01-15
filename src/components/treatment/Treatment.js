@@ -4,6 +4,7 @@ import './Treatment.css'
 
 import ContactForm from '../contact/ContactForm';
 import TreatmentSection from './TreatmentSection';
+import {Helmet} from "react-helmet";
 
 const Treatment = () => {
     return (
@@ -11,6 +12,12 @@ const Treatment = () => {
 
 
 {/* -------------------------------- HERO -------------------------------------- */}
+
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>TREATMENT - Joser Forever</title>
+            <link rel="canonical" href="https://joserforever.biz/treatment" />
+        </Helmet>
 
         <div className='treatment main-menu'>
 
