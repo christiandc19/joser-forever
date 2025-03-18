@@ -11,7 +11,7 @@ const Topbar = () => {
     <div className='topbar' name='top'>
             <div className='topbar-content container'>
                 <div className='address bar-box1 topbar-hide'>
-                    <p><span><MdLocationPin /></span> 1435 S La Cienega BlvdLos Angeles, CA 90035</p>
+                    <p><span><MdLocationPin /></span> 1436 S La Cienega BlvdLos Angeles, CA 90035</p>
                 </div>
 
                 <div className='email bar-box2 topbar-hide'>
