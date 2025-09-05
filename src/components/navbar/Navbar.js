@@ -59,7 +59,7 @@ const Navbar = () => {
                 <li ><NavLink onClick={toggleClass} activeClassName="is-active" to={`/alcohol`}>Alcohol</NavLink></li>
                 <li><NavLink onClick={toggleClass} activeClassName="is-active" to={`/cocaine`}>Cocaine</NavLink></li>
                 <li><NavLink onClick={toggleClass} activeClassName="is-active" to={`/fentanyl`}>Fentanyl</NavLink></li>
-                <li><NavLink onClick={toggleClass} activeClassName="is-active" to={`/heroin`}>Heroin</NavLink></li>
+                {/* <li><NavLink onClick={toggleClass} activeClassName="is-active" to={`/heroin`}>Heroin</NavLink></li> */}
                 <li><NavLink onClick={toggleClass} activeClassName="is-active" to={`/kratom`}>Kratom</NavLink></li>
                 <li><NavLink onClick={toggleClass} activeClassName="is-active" to={`/mdma`}>MDMA</NavLink></li>
                 <li><NavLink onClick={toggleClass} activeClassName="is-active" to={`/meth`}>Meth</NavLink></li>
