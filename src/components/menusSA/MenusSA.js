@@ -7,7 +7,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 import Icon1 from "../../assets/top-flex-icon1.png";
 import Icon2 from "../../assets/top-flex-icon2.png";
-import Icon3 from "../../assets/top-flex-icon3.png";
+// import Icon3 from "../../assets/top-flex-icon3.png";
 import Icon4 from "../../assets/top-flex-icon4.png";
 import Icon5 from "../../assets/top-flex-icon5.png";
 import Icon6 from "../../assets/top-flex-icon6.png";
